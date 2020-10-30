@@ -1,0 +1,80 @@
+.sag_yok div.st_horizontal div.st_tabs_container,
+.sol_yok div.st_horizontal div.st_tabs_container {
+    width: 948px!important;
+	margin-bottom:0px;
+	background-color:#fff;
+	
+}
+
+.sag_sol_yok div.st_horizontal div.st_tabs_container {
+    width: 1200px!important;
+	border-radius:6px;
+}
+
+div.st_horizontal{
+	width:auto;
+	z-index:1;
+}
+
+div.st_horizontal div.st_view_container{
+	padding:0px;
+	border:none;
+	height:auto;
+}
+
+div.st_horizontal div.st_tab_view {
+	display:block;
+	width:100%;	
+}
+div.st_horizontal ul.st_tabs li{
+	border-right: 1px solid #ebeef0;
+}
+div.st_horizontal a.st_next,
+div.st_horizontal a.st_prev{
+	border-radius:0px;
+	border:none;
+	background-color:#cf92e8;
+	width:40px;
+	height:40px;
+}
+div.st_horizontal a.st_next:hover,
+div.st_horizontal a.st_prev:hover{
+	background-color:#be75dc;
+}
+
+div.st_horizontal a.st_prev.st_btn_disabled, 
+div.st_horizontal a.st_next.st_btn_disabled{
+	background-color:#ddc9de;
+	border:none;
+}
+
+div.st_horizontal ul.st_tabs li a{
+	background:#fff;
+	color:#434950;
+	border:none;
+	font-weight:normal;
+	font-size:14px;
+	padding:11px 21px;
+}
+div.st_horizontal ul.st_tabs li a:hover{
+	background:#cf92e8;
+	color:#fff;
+}
+
+div.st_horizontal ul.st_tabs li a.st_first_tab{
+	border:none;
+}
+
+div.st_horizontal ul.st_tabs a.st_tab_active {
+	color: #fff;
+	background: #cf92e8;
+}
+
+div.st_horizontal div.st_tabs_container { /* Tabs main container */		
+	background-color:#fff;
+	width:698px!important;	
+	border-radius:0px;
+	border:1px solid #ebeef0;
+	border-top-color:#cf92e8;
+
+}

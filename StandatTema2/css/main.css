@@ -1,0 +1,423 @@
+@import url(public/reset.css);
+@import url(public/sexylight-reset.css);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700&subset=latin-ext&display=swap);
+@import url(css/font-awesome.min.css);
+@import url(css/line-awesome.min.css);
+@import url(public/jquery.autocomplete.css);
+@import url(public/tipTip.css);
+@import url(public/jquery.nanoScroller.css);
+@import url(header.css);
+@import url(basliklar.css);
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color:#444;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+	opacity:0;
+	overflow:hidden;
+	line-height: 1.4;
+}
+
+body.render{
+	background-image:none;
+	opacity:1;
+	overflow:auto;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+	font-size: 14px;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0;
+	padding: 10px 12px;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-radius:2px;
+	font-family:'Montserrat',sans-serif;
+}
+
+select {
+    font-family:'Montserrat',sans-serif;
+    font-size: 14px;
+    border-width: 1px;
+	border-style:solid;
+	border-radius:2px;
+    margin: 0;
+	padding:6px 18px 8px 9px;
+   -webkit-appearance: none;
+	  -moz-appearance: none;
+	   -ms-appearance: none;
+	    -o-appearance: none;
+           appearance: none;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJDNDZBMEY3RjU4NzExRTQ5Q0NCOEFDN0UzQjQ5ODg3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjJDNDZBMEY4RjU4NzExRTQ5Q0NCOEFDN0UzQjQ5ODg3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MkM0NkEwRjVGNTg3MTFFNDlDQ0I4QUM3RTNCNDk4ODciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MkM0NkEwRjZGNTg3MTFFNDlDQ0I4QUM3RTNCNDk4ODciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7ytnRfAAAAPklEQVR42kyMUQoAMAhCHexedbRuVjdryiDqQ3wmwsywTpiZOxJ29xRpiIqmSEM8igF3p1YV9f5/RMzcE2AAwwYfX0fgvG0AAAAASUVORK5CYII=');
+	background-repeat:no-repeat;
+	background-position:right 12px center;
+	height:40px;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	padding: 11px 15px;
+	margin-bottom: 0;
+	font-size: 14px;
+	border-radius:2px;
+	font-family:'Montserrat',sans-serif;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+		touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	 -moz-user-select: none;
+	  -ms-user-select: none;
+		  user-select: none;
+}
+
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.jcarousel-next-disabled,
+.jcarousel-prev-disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled {
+	opacity:.5;
+}
+
+a,
+input,
+select,
+textarea {
+	font-size:14px;
+    text-decoration: none;
+	transition: all 0.20s ease-in-out;
+}
+
+label {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input[type=checkbox]{
+	position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding:0;
+    border:0;
+	opacity:0;
+}
+
+input[type=checkbox] + label{
+	background-image:url(../images/web-two-style_tz.png);
+	padding-left:25px;
+    height:20px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox]:checked + label{
+    background-position: 0 -40px;
+}
+
+input[type=checkbox]:not(:checked):not(:disabled) + label:hover{
+    background-position: 0 -20px;
+}
+
+input[type=checkbox]:disabled + label{
+    opacity:.5;
+}
+
+/* custom radio */
+
+input[type=radio]{
+	position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding:0;
+    border:0;
+	opacity:0;
+}
+
+input[type=radio] + label{
+	background-image:url(../images/web-two-style_radio_tz.png);
+	padding-left:25px;
+    height:20px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=radio]:checked + label{
+    background-position: 0 -40px;
+}
+
+input[type=radio]:not(:checked):not(:disabled) + label:hover {
+    background-position: 0 -20px;
+}
+
+
+input[type=radio]:disabled + label{
+    opacity:.5;
+}
+hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #dedede;
+}
+
+#PM_main {
+    position: relative;
+    margin: 0 auto;
+	
+}
+
+em {
+    font-style: normal!important;
+}
+
+#tiptip_content{
+	font-size:12px;
+}
+
+#sistem_mesaji {
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    top: -220px;
+    margin-bottom: 20px;
+    text-align: center;
+    left: 0px;
+    padding: 10px 0px;
+}
+
+#sistem_mesaji p.baslik {
+    font-size: 0;
+}
+
+#sistem_mesaji p.baslik a {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    font-size: 26px;
+}
+
+#sistem_mesaji p.baslik a:before {
+    content: "×";
+    line-height: 1;
+    margin-right: 5px;
+}
+
+#sistem_mesaji div.icerik {
+    font-size: 16px;
+}
+
+#sistem_mesaji div.icerik a {
+    font-weight: 700;
+}
+
+#PM_orta {
+    width: 1200px;
+    margin: 0 auto;
+	margin-bottom:40px;
+}
+
+
+.telifust .telifgorsel{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+}
+
+
+#PM_alt {
+    clear: both;
+    padding: 50px;
+	border-top:2px solid;
+}
+
+#PM_alt div.site_telif {
+    display: block;
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#PM_alt div.site_telif a {
+    text-decoration: none;
+}
+
+#PM_alt div.site_telif a:hover {
+    text-decoration: underline;
+}
+
+.siparis_sayfasi_alt {
+	text-align:center;
+	padding:20px;
+}
+
+div.pm_telif {
+    clear: both;
+    text-align: center;
+    width: 1170px;
+    margin: auto;
+    padding: 10px;
+}
+
+div.pm_telif a {
+    text-decoration: none;
+}
+
+div.pm_telif a:hover {
+    text-decoration: underline;
+}
+
+#PM_sol {
+    width: 220px;
+    float: left;
+    margin-right: 30px;
+}
+
+#PM_sol.ustmenuyok {
+    margin-top: 0px;
+}
+
+#PM_sag {
+    width: 220px;
+    float: right;
+}
+
+#PM_anasayfa {
+    float: left;
+}
+
+#PM_Logasist {
+    right: 10px;
+    z-index: 999;
+}
+
+#PM_Hizli_SatinAl_Modal {
+    padding: 0 5px;
+}
+
+#PM_Hizli_SatinAl_Modal div.soru {
+    font-size: 14px;
+    padding: 0 10px 10px;
+}
+
+#PM_Hizli_SatinAl_Modal div.butonlar {
+    text-align: center;
+    border-top-width: 1px;
+	border-style:solid;
+    padding-top: 10px;
+}
+
+#PM_Hizli_SatinAl_Modal div.butonlar input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.PM_clear {
+    clear: both;
+    width: 0;
+    height: 0;
+}
+
+#PM_Default_H1,
+.empty_node {
+    display: none!important;
+}
+
+.slimScrollBar{
+	opacity:.25!important;
+}
+
+.block_button a:before{
+	display:block!important;
+	margin:10px!important;
+}
+
+/*html5 support*/
+
+input[type="text"],
+input[type="password"],
+textarea, select, 
+input[type="button"],
+input[type="submit"],
+input[type="reset"]{
+	box-sizing: border-box;
+}
+
+
+#urun_miktar_secenekleri{
+	width: 64px !important;
+	height: 48px !important;
+}
+
+.oklar{
+	float:left;
+	display: flex;
+    flex-direction: column;
+}
+
+#arttir,
+#azalt {
+	display: flex !important;
+	height: 21px;
+	width: 21px;
+	padding: 0 !important;
+	justify-content: center;
+    align-items: center;
+}
+
+#PM_urun_detayi div.urun_detay_orta div.sepete_ekle_adet_virt,
+#hemenal_buton,
+#sepete_ekle_buton{
+	margin-top: 0!important;
+	
+}
+#hemenal_buton:before,
+#sepete_ekle_buton:before{
+	display: block;
+	
+}
+
+.star-rating{
+	margin: 0!important;
+}

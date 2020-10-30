@@ -1,0 +1,2330 @@
+a {
+    color: #434950;
+}
+
+a:hover {
+    color: #cf92e8;
+}
+
+/*-----------------------------------------  mavi renk  -----------------------------------*/
+#teklif_iste_btn, 
+#cek_kullan, 
+#teklif_iste_btn, 
+#hediye_ceklerim_goster, 
+#pc_topla_email_gonder_btn, 
+#sepet_detay div.sepet_dolu div.alt_butonlar #alisverise_devam, 
+#sepet_detay div.sepet_dolu div.ust_butonlar div.sepet_guncelle_div input, 
+#PM_anket div.icerik div.anket_butonlar input, 
+#PM_anket div.icerik div.anket_butonlar input, 
+#urun_detay_tab4 div.yorumlar_bilgi div.yorum_yap a,
+#urun_detay_tab4 div.yorum_yok a, 
+#PM_orta div.urun div.urun_butonlar a.urun_sepete_ekle:before, 
+#sepete_ekle_buton:before, 
+#PM_urun_detayi div.urun_detay_orta div.urun_temin_edilemiyor div.haber_ver a:before,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.pc_topla_sepete_ekle a,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.butonlar div.pc_topla_yazdir_div a, 
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.butonlar div.pc_topla_kaydet_div a, 
+#PM_anket_sonuclari div.anket_sonuclari div.icerik div.anket_cevaplar div.anket_oran, 
+#PM_Hizli_SatinAl_Modal div.butonlar input, 
+#sepet_detay div.sepet_oneriler > div:not(.sepet_oneriler_bu_urunleri_gordunuzmu) div.urun div.sepete_ekle_buton a:hover, 
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_sepet_bilgilerim h1.siparis_onayi_sepet_bilgilerim_baslik a, 
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim h1.siparis_onayi_adres_bilgilerim_baslik a, 
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim h1.siparis_onayi_odeme_bilgilerim_baslik a {
+    color: #fff;
+    background-color: #cf92e8;
+	box-shadow: 0px 5px 15px 0px #ae62c130;
+}
+
+#cek_kullan:hover, 
+#teklif_iste_btn:hover, 
+#cek_kullan:hover, 
+#hediye_ceklerim_goster:hover, 
+#sepete_ekle_buton:hover:before,
+#PM_urun_detayi div.urun_detay_orta div.urun_temin_edilemiyor div.haber_ver a:hover:before, 
+#sepet_detay div.sepet_dolu div.ust_butonlar div.sepet_guncelle_div input:hover, 
+#pc_topla_email_gonder_btn:hover, 
+#PM_anket div.icerik div.anket_butonlar input:not(:disabled):hover, 
+#PM_orta div.urun div.urun_butonlar a.urun_sepete_ekle:hover:before, 
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.pc_topla_sepete_ekle a:hover, 
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.butonlar div.pc_topla_yazdir_div a:hover, 
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.butonlar div.pc_topla_kaydet_div a:hover, 
+#sepet_detay div.sepet_dolu div.alt_butonlar #alisverise_devam:hover, 
+#urun_detay_tab4 div.yorumlar_bilgi div.yorum_yap a:hover, 
+#urun_detay_tab4 div.yorum_yok a:hover,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_sepet_bilgilerim h1.siparis_onayi_sepet_bilgilerim_baslik a:hover, 
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim h1.siparis_onayi_adres_bilgilerim_baslik a:hover, 
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim h1.siparis_onayi_odeme_bilgilerim_baslik a:hover {
+    background-color: #be75dc;
+}
+
+/*-----------------------------------------  mavi renk end  -----------------------------------*/
+
+
+/*-----------------------------------------  yeşil renk ve hover'ı  -----------------------------------*/
+.sepet_link:hover,
+.la-search:hover{
+	color:#cf92e8;	
+}
+.siparisi_tamamla a,
+.puan_butonlar input,
+#hemenal_buton:before,
+#siparis_detayi #bildirim_btn,
+#uye_kayit #uye_kayit_buton input,
+#bildirim_listesi div.butonlar input,
+#alisveris_listesi div.butonlar input,
+#takip div.icerik div.ust_butonlar input,
+#fiyat_alarm_listesi div.butonlar input,
+#kiyaslama_listesi div.butonlar input,
+#adres_bilgileri div.ust_butonlar input,
+#adres_bilgileri div.butonlar input,
+ul.urun_detay_tablar_ul li a:hover, 
+ul.urun_detay_tablar_ul li.active, 
+ul.urun_detay_tablar_ul li.active a, 
+ul.urun_detay_tablar_ul li.active a:hover,
+#stok_alarm_listesi div.butonlar input,
+#uye_bilgileri #uye_bilgileri_buton input,
+#siparis_takibi #siparis_takibi_buton input,
+#sifre_degistirme #sifre_degistirme_buton input,
+#sepet_detay div.sepet_dolu div.alt_butonlar #satin_al,
+#PM_orta div.urun div.urun_butonlar a.urun_hemen_al:before,
+#ust_sepet_kismi #sepet_detay_mini .sepete_git_buton > a,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_menu div.arama #mh_ara_btn,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_iletisim div.icerik form .iletisim_buton, 
+div.siparis_sayfasi_icerik_sol div.sonraki_adim_div #sonraki_adim,
+.urun_ozeelik_aciklama,
+#kiyaslama_listesi div.ust_butonlar input  {
+    color: #FFF;
+	background-color:#cf92e8;
+	box-shadow: 0px 5px 15px 0px #ae62c130;	
+}
+
+.siparisi_tamamla a:hover,
+.puan_butonlar input:hover:not(:disabled),
+#takip div.icerik div.ust_butonlar input:hover,
+#bildirim_listesi div.butonlar input:hover,
+#alisveris_listesi div.butonlar input:hover,
+#fiyat_alarm_listesi div.butonlar input:hover,
+#kiyaslama_listesi div.butonlar input:hover,
+#stok_alarm_listesi div.butonlar input:hover,
+#adres_bilgileri div.ust_butonlar input:hover,
+#adres_bilgileri div.butonlar input:hover,
+#hemenal_buton:hover:before,
+#uye_bilgileri #uye_bilgileri_buton input:hover,
+#sifre_degistirme #sifre_degistirme_buton input:hover,
+#sepet_detay div.sepet_dolu div.alt_butonlar #satin_al:hover,
+#ust_sepet_kismi #sepet_detay_mini .sepete_git_buton > a:hover,
+div.siparis_sayfasi_icerik_sol div.sonraki_adim_div #sonraki_adim:hover,
+#PM_orta div.urun div.urun_butonlar a.urun_hemen_al:hover:before,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_menu div.arama #mh_ara_btn:hover,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_iletisim div.icerik form .iletisim_buton:hover,
+#satis_sozlemesi_alt input:last-child:hover,
+.urun_ozeelik_aciklama:hover,
+#kiyaslama_listesi div.ust_butonlar input:hover {
+	background-color:#be75dc;
+}
+
+#urun_arama_submit:hover{
+    background-color: #b97cd2;	
+}
+
+ul.urun_detay_tablar_ul li a:hover, 
+ul.urun_detay_tablar_ul li.active, 
+ul.urun_detay_tablar_ul li.active a, 
+ul.urun_detay_tablar_ul li.active a:hover{
+	box-shadow:none;
+}
+
+.siparisi_tamamla a,
+div.siparis_sayfasi_icerik_sol div.sonraki_adim_div #sonraki_adim,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_sepet_bilgilerim h1.siparis_onayi_sepet_bilgilerim_baslik a,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim h1.siparis_onayi_adres_bilgilerim_baslik a,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim h1.siparis_onayi_odeme_bilgilerim_baslik a{
+	box-shadow: 0px 5px 15px 0px #ae62c130;	
+}
+
+
+
+.urun_taksit_secenekleri_kisa {
+    background: url(../images/taksit_kisa.png) left center no-repeat;
+}
+
+#PM_orta div.urun div.indirimli_urun {
+    background: #838b94;
+    color: #fff;
+}
+
+#PM_orta div.urun div.urun_ikonlar i {
+    color: #fff;
+    background-color: #7e8c9e;
+}
+
+#PM_orta .butonveikonlar {
+    background-color: #f5f5f5;
+}
+
+#PM_orta div.urun div.urun_ikonlar i:hover:after {
+    color: #fff!important;
+}
+
+#PM_orta div.urun div.urun_ikonlar a:before,
+#PM_orta div.urun div.urun_butonlar a:before, 
+#PM_orta div.urun div.urun_ikonlar .kargo_bedavali_urun_ikon_a i:after,
+#PM_orta div.urun div.urun_ikonlar .kitik_stok_urun_ikon_a i:after ,
+#PM_orta div.urun div.urun_ikonlar .kampanyali_urun_ikon_a i:after,
+#PM_orta div.urun div.urun_ikonlar .ayni_gun_kargo_urun_ikon_a i:after {
+    color: #fff;
+}
+
+.puan_butonlar div{
+	border-color:#e74c3c;
+}
+
+/*
+#urun_arama_submit {
+    color: #fff;
+    background-color: #cf92e8;
+    background-image: url(../images/aramaico.png);
+    background-repeat: no-repeat;
+}
+*/
+
+#urun_detay_tab4 div.yorum_yok {
+    border-color:#ebeef0;
+    background-color: #f9f9f9;
+}
+
+#sepet_detay div.sepet_oneriler > div:not(.sepet_oneriler_bu_urunleri_gordunuzmu) div.urun div.sepete_ekle_buton a {
+	border-color:#cf92e8;
+	background-color:#fff;
+	color:#cf92e8;
+}
+
+
+
+/*-----------------------------------------  yeşil renk ve hover'ı END -----------------------------------*/
+
+
+
+
+/*-----------------------------------------  AÇIKLAMALAR BEGIN -----------------------------------*/
+
+
+/*---------------KIRMIZI -------------*/
+.urunler_main div.urunler div.icerik div.urun_yok,
+#uye_giris_kayit div.uye_giris div.uye_giris_hata_mesaji,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.kayit_yok,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_arama_sonuc div.sonuc_yok,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_iptali_goster,
+.yeni_urunler_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a:hover,
+.arama_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a:hover,
+.indirimli_urunler_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a:hover,
+.kategori_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a:hover {
+    color: #a94442;
+    border-color: #ebccd1;
+    background-color: #f2dede;
+}
+/*---------------KIRMIZI -------------*/
+
+
+/*---------------SARI -------------*/
+
+div.urun_fiyati_yok,
+div.fiyat_gorme_yetkim_yok,
+#sepet_detay div.sepet_bos,
+div.urun_stok_yok,
+div.banka_taksit_secenkeleri div.hata,
+.urun_indirimli_kampanya_yazisi_icerik,
+div.siparis_detay div.siparis_toplam_puan,
+#bildirim_listesi form table tr.secili,
+#alisveris_listesi form table tr.secili,
+#fiyat_alarm_listesi form table tr.secili,
+#kiyaslama_listesi form table tr.secili,
+#stok_alarm_listesi form table tr.secili,
+#puanlarim form table.tablo_1 tr.secili,
+#bildirim_listesi form table tr.liste_satir_2.secili,
+#alisveris_listesi form table tr.liste_satir_2.secili,
+#fiyat_alarm_listesi form table tr.liste_satir_2.secili,
+#kiyaslama_listesi form table tr.liste_satir_2.secili,
+#stok_alarm_listesi form table tr.liste_satir_2.secili,
+#puanlarim form table.tablo_1 tr.liste_satir_2.secili,
+#sepet_detay div.sepet_dolu div.sepet_urunler table tr.secili,
+#sepet_detay div.sepet_dolu div.sepet_urunler table td div.urun_isim_kampanya div.uyeye_ozel_indirim_yazisi,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.kargo_secimi div.kargo_secimi_icerik table:not(.banka_taksitler) tr.kargo_yok td {
+    color: #715c75;
+    border-color: #f4ecf5;
+    background: #fbf5fc;
+}
+
+#PM_kategori_urunleri div.urunler_main div.sizin_icin_sectiklerimiz p.baslik,
+#PM_kategori_urunleri div.urunler_main div.indirimli_urunler p.baslik,
+#PM_kategori_urunleri div.urunler_main div.yeni_urunler p.baslik{
+	color: #5c6369;
+    border-color: #fbf5fc;
+    border-top-color: #cf92e8;
+}
+
+
+/*---------------SARI -------------*/
+
+/*---------------YEŞİL -------------*/
+
+
+#fiyat_alarm_listesi form table td.fiyati_dusmus div,
+#uye_giris_kayit div.uye_giris div.uye_giris_aciklama,
+#uye_giris_kayit div.uye_kayit div.uye_kayit_aciklama,
+#urun_detay_tab3 div.banka_taksit_secenekleri_kampanyalar,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.odeme_bekleniyor_aciklama,
+#PM_urun_detayi div.uyeye_ozel_kampanya_bar div.uyeye_ozel_kampanya_aciklama,
+#PM_siparis_sonu div.siparis_sayfasi_icerik div.siparis_sonu_aciklama,
+#urun_detay_tab3 div.banka_taksit_secenkeleri p,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.kargo_takibi,
+.yeni_urunler_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a,
+.arama_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a,
+.indirimli_urunler_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a,
+.kategori_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler div.darlatma_secilmis div.darlatma_secilmis_button a,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.odeme_secenekleri_kampanyalar,
+div.banka_taksit_secenekleri_kampanyalar,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim div.siparis_onayi_odeme_bilgilerim_icerik table tr.odenecek_tutar,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_kargo_bedava div.sepet_oneriler_kargo_bedava_icerik div.sepet_oneriler_kargo_bedava_aciklama,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_taksitlendirin div.sepet_oneriler_taksitlendirin_icerik div.sepet_oneriler_taksitlendirin_aciklama,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.kargo_takibi,
+#sepet_detay div.sepet_dolu div.sepet_urunler table td div.urun_isim_kampanya div.kampanya_yazisi div,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.odeme_bekleniyor_aciklama,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.kargo_takibi {
+    color: #715c75;
+    border-color: #f4ecf5;
+    background: #fbf5fc;
+}
+/*---------------YEŞİL -------------*/
+
+
+
+/*---------------MAVİ -------------*/
+
+#satis_sozlemesi_baslik,
+#puanlarim div.yardim div.yardim_aciklama,
+#ceklerim div.yardim div.yardim_aciklama,
+#bildirim_listesi div.icerik div.aciklama,
+#alisveris_listesi div.icerik div.aciklama,
+#fiyat_alarm_listesi div.icerik div.aciklama,
+#kiyaslama_listesi div.icerik div.aciklama,
+#stok_alarm_listesi div.icerik div.aciklama,
+#sepet_detay div.sepet_dolu div.aciklama,
+#puanlarim div.icerik div.aciklama,
+#ceklerim div.icerik div.aciklama,
+#takip div.icerik div.aciklama,
+#uye_bilgileri_aciklama,
+#sifre_degistirme #sifre_degistirme_aciklama,
+#siparis_takibi #siparis_takibi_aciklama,
+#uye_kayit #uye_kayit_aciklama,
+#uye_giris_kayit div.icerik div.aciklama,
+#adres_bilgileri div.icerik div.aciklama,
+#urun_detay_tab3 div.havale_indirim_secenkeleri,
+#urun_detay_tab3 div.tekcekim_indirim_secenkeleri,
+#urun_detay_tab6 div.teklif_isteme div.aciklama,
+#urun_detay_tab2 div.urun_kampanyalari div.kampanya_aciklama,
+#siparislerim div.icerik div.aciklama,
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc > div,
+#sepet_detay div.sepet_dolu div.sepet_urunler table td div.urun_isim_kampanya span.urun_puan,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.aciklama,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.aciklama,
+#urun_detay_tab2 div.urun_kampanyalari div.kampanya_urun div.kampanya_fiyat,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_iletisim div.icerik div.aciklama,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap div.icerik div.aciklama,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_arama_sonuc ul li, 
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.satis_sozlesmesi_goster,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.satis_sozlesmesi_goster,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_aciklama,
+div.banka_taksit_secenkeleri table.banka_taksitler tr.secili,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.kargo_secimi div.kargo_secimi_icerik table:not(.banka_taksitler) tr.secili td,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.odeme_secimi div.odeme_secimi_icerik table:not(.banka_taksitler) tr.secili td,
+div.kredi_karti_odeme_aciklama, 
+div.kapida_odeme_aciklama, 
+div.havale_odeme_aciklama, 
+div.mobil_odeme_aciklama, 
+div.paypal_odeme_aciklama,
+div.papara_odeme_aciklama,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim div.siparis_onayi_odeme_bilgilerim_icerik table tr:not(.vade_farki_aciklama) {
+	color: #5c6369;
+    border-color: #ebeef0;
+    background: #f9f9f9;
+}
+/*---------------MAVİ -------------*/
+
+/*-----------------------------------------  AÇIKLAMALAR END -----------------------------------*/
+
+
+#ust_uye_giris_ul > li a.link_1,
+#ust_uye_giris_ul > li a.link_2 {
+    background: #fbf5fc;	
+}
+
+#ust_uye_giris_ul > li a.link_1:hover,
+#ust_uye_giris_ul > li a.link_2:hover {
+    background: #cf92e8;
+	color:#fff;
+}
+
+
+
+#ust_sepet_kismi div.mini_sepetim ,
+.uyelik_butonlar{
+    border-color: #e2e6e8;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.1);
+    background: #fff;
+}
+.menum > ul > li > ul > li > a:hover,
+.menum > ul > li:hover > a,
+.uyelikisim1 i.left,
+.uyelikisim2 i.left {
+    color: #cf92e8;
+}
+
+#ust_uye_panel_ul > li > a {
+	background:#f9f9f9;
+}
+#ust_uye_panel_ul > li > a:hover {
+	background:#f5f5f5;
+}
+
+.sepet_link span {
+    background: #cf92e8;
+	border-color:#fff;
+}
+
+.ac_results ul {
+    border-color: #ecd4ef;
+}
+
+.ac_results li a img {
+    border-color: #ecd4ef;
+}
+
+.ac_over {
+    background-color: #ecd4ef;
+}
+
+.ac_odd,
+.ac_loading{
+	background-color:#ecd4ef;
+}
+
+#kayan_yazi_alani{
+	background-color:#fff;
+	box-shadow: 0px 5px 20px 0px #ead9e94d;
+}
+.infoarea {
+    background: url(https://www.bayanpazar.com/skin/1048-1/images/infoarea.png) center no-repeat;
+}
+
+.bannerline{
+	background: #fbf5fc;	
+}
+
+.row1,
+.row3,
+.infoarea,
+input[type="text"],
+input[type="password"],
+select,
+textarea,
+.nav-tabs,
+.detaycontainer,
+.detay_bottom li,
+.urun_paylas_butonlar,
+#PM_urun_detayi .urun_bilgiler,
+#ust_ana_menu li a,
+.menum > ul > li > a,
+.menum > ul > li > ul > li > a,
+.menum > ul > li > ul > li > ul > li > a,
+.acilirmenu > ul > li > ul > li > a,
+.acilirmenu > ul > li > ul > li > ul > li > a,
+#ust_uye_panel_ul > li a,
+#ust_uye_giris_ul li a,
+#anasayfa_yazisi,
+#PM_urun_detayi div.urun_detay_sol, 
+#PM_urun_detayi div.urun_onerileri p.baslik,
+#PM_editorun_secimi div.icerik,
+#PM_kategoriler div.icerik,
+#PM_markalar div.icerik,
+#PM_haberler div.icerik,
+#PM_anket div.icerik,
+#PM_linkler div.icerik,
+#PM_doviz div.icerik,
+#PM_linkler div.icerik li a,
+#PM_haberler div.icerik li a,
+#PM_doviz div.icerik li,
+.PM_cerceveli_modul div.icerik,
+#PM_begenilen_urunler div.icerik,
+#PM_en_cok_izlenen_urun div.icerik, 
+#PM_musteri_hizmetleri h1.baslik,
+#siparis_takibi h1.baslik,
+#PM_yeni_urunler h1.baslik,
+#PM_indirimli_urunler h1.baslik,
+#PM_arama_urunleri h1.baslik,
+#sepet_detay h1.baslik,
+#siparislerim h1.baslik,
+#siparis_detayi h1.baslik,
+#pc_topla h1.baslik,
+#uye_kayit h1.baslik,
+#uye_bilgileri h1.baslik,
+#sifre_degistirme h1.baslik,
+.yeni_urunler_daraltma div.ana_icerik div.darlatma_secilmisler,
+.arama_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler,
+.indirimli_urunler_daraltma div.ana_icerik div.darlatma_secilmisler,
+.kategori_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler,
+#PM_Hizli_SatinAl_Modal div.butonlar,
+#PM_haber_detayi div.haber_detay h1.baslik,
+#PM_haber_detayi div.diger_haberler p.baslik,
+#PM_link_detayi div.link_detay h1.baslik,
+#PM_link_detayi div.diger_linkler p.baslik,
+#PM_anket_sonuclari div.anket_sonuclari h1.baslik,
+#PM_anket_sonuclari div.diger_anketler p.baslik ,
+#bildirim_listesi h1.baslik,
+#alisveris_listesi h1.baslik,
+#fiyat_alarm_listesi h1.baslik,
+#kiyaslama_listesi h1.baslik,
+#stok_alarm_listesi h1.baslik,
+#puanlarim h1.baslik,
+#ceklerim h1.baslik,
+#takip h1.baslik,
+#PM_editorun_secimi p.baslik,
+#PM_markalar p.baslik,
+#PM_haberler p.baslik,
+#PM_anket p.baslik,
+#PM_linkler p.baslik,
+#PM_doviz p.baslik,
+.d_toplayici,
+.d_toplayici .urun_oy,
+.PM_cerceveli_modul p.baslik,
+#PM_begenilen_urunler p.baslik,
+#PM_en_cok_izlenen_urun p.baslik, 
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a,
+#adres_bilgileri h1.baslik,
+#PM_anket_sonuclari div.diger_anketler,
+#PM_haber_detayi div.diger_haberler,
+#PM_link_detayi div.diger_linkler, 
+.yeni_urunler_daraltma div.ana_icerik p.baslik,
+.arama_urunleri_daraltma div.ana_icerik p.baslik,
+.indirimli_urunler_daraltma div.ana_icerik p.baslik,
+.kategori_urunleri_daraltma div.ana_icerik p.baslik,
+.yeni_urunler_daraltma div.ana_icerik,
+.arama_urunleri_daraltma div.ana_icerik,
+.indirimli_urunler_daraltma div.ana_icerik,
+.kategori_urunleri_daraltma div.ana_icerik,
+.yeni_urunler_daraltma div.ana_icerik div.darlatma_secilmisler,
+.arama_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler,
+.indirimli_urunler_daraltma div.ana_icerik div.darlatma_secilmisler,
+.kategori_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler, 
+.etiket_urunleri_daraltma div.icerik,
+#urun_detay_tab4 div.yorumlar div.yorum,
+#PM_haber_detayi div.haber_paylas_butonlar a,
+#ust_sepet_kismi #sepet_detay_mini .urun,
+#PM_Musteri_Hizmetleri_Menu_UL span.bank,
+#PM_anket_sonuclari div.diger_anketler p.baslik ,
+#PM_haber_detayi div.diger_haberler p.baslik ,
+#PM_link_detayi div.diger_linkler p.baslik,
+.urunler_main div.urunler div.icerik div.urun_liste,
+.urunler_ust div.sayfalama_secenekleri_1 li a,
+#uye_giris_kayit div.uye_kayit,
+#uye_giris_kayit div.uye_giris,
+#PM_orta div.urun,
+#sepet_detay_mini .urun .urun_resim,
+div.siparis_sayfasi_adimlar .list-group-item 
+div.siparis_sayfasi_icerik_sol,
+.kredi_karti_taksit_tabs_sections div a img,
+div.banka_taksit_secenkeleri:first-child,
+.sepet_son_toplamalar,
+div.siparis_sayfasi_icerik_sol div.sonraki_adim_div,
+.siparisi_tamamla,
+#sepet_detay div.sepet_dolu div.sepet_urunler table th,
+#urun_detay_tab2 div.urun_kampanyalari div.kampanya_urun,
+.urun_paylas_butonlar a,
+.urun_ekstra_butonlar,
+.urun_detay_tablar_ul,
+.urun_detay_tablar_ul li a,
+.tab_container,
+.detay_bottom,
+#PM_urun_detayi div.urun_onerileri div.icerik,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.pc_topla_sepete_ekle,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.toplam_fiyatlar,
+#PM_urun_detayi div.urun_detay_orta div.stoktaki_benzer_urunler div.stoktaki_benzer_urunler_icerik div.urun, 
+#PM_urun_detayi div.urun_detay_orta div.stoktaki_benzer_urunler div.stoktaki_benzer_urunler_icerik,
+#PM_urun_detayi div.urun_detay_orta div.stoktaki_benzer_urunler p.stoktaki_benzer_urunler_baslik,
+#PM_urun_detayi div.urun_detay_orta div.urun_temin_edilemiyor,
+#PM_urun_detayi div.urun_detay_orta div.urun_secenekleri,
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat div.urun_fiyat_hvl_krd,
+#sepet_detay div.sepet_dolu div.sepet_urunler table td div.urun_resim,
+#PM_urun_detayi div.urun_detay_kategori_agaci,
+#PM_urun_detayi div.urun_detay_sol div.urun_resmi,
+#urun_detay_tab4 ul.simplePagerNav li a,
+#urun_detay_tab1 div.urun_aciklama table.entegrasyon_ozellik th,
+#urun_detay_tab1 div.urun_ozellikler table th,
+#uye_giris_kayit div.uye_giris div.sifremi_unuttum,
+#sifre_degistirme #sifre_degistirme_form1,
+#uye_bilgileri #uye_bilgileri_form3,
+#uye_bilgileri #uye_bilgileri_form2,
+#uye_bilgileri #uye_bilgileri_form1,
+#uye_kayit #uye_kayit_form3,
+#uye_kayit #uye_kayit_form2,
+#uye_kayit #uye_kayit_form1,
+#sifre_degistirme #sifre_degistirme_buton,
+#uye_bilgileri #uye_bilgileri_buton,
+#PM_anasayfa_urunler div.urunler p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_arama_sonuc p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_icerik p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_iletisim p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_hakkimizda p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_menu,
+#PM_kategori_urunleri div.kategori_urunleri_kategori_agaci,
+#ust_sepet_kismi #sepet_detay_mini .urun .urun_resim,
+#PM_kategori_urunleri div.urunler_main div.yeni_urunler,
+#PM_kategori_urunleri div.urunler_main div.indirimli_urunler,
+#PM_kategori_urunleri div.urunler_main div.sizin_icin_sectiklerimiz,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap div.icerik table,
+#urun_detay_tab3 div.banka_taksit_secenkeleri div.virt_banka_taksitler:hover,
+#PM_urun_detayi div.urun_detay_orta div.sepete_ekle_adet_virt table td input:focus,
+#urun_detay_tab3 div.banka_taksit_secenkeleri div.virt_banka_taksitler,
+#PM_urun_detayi div.urun_detay_orta div.sepete_ekle_adet_virt table td input,
+#PM_urun_detayi div.urun_taglari p.baslik,
+div.siparis_sayfasi_icerik_sol div.teslimat_bilgileri div.icerik div.faturam_teslimat_farkli,
+div.siparis_sayfasi_icerik_sol div.fatura_bilgileri div.icerik div.fatura_siparisle_beraber,
+#satis_sozlemesi_icerik #satis_sozlemesi_icerik_icerik #sozlesme_siparis_urunleri table td,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urun_secim,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim div.siparis_onayi_adres_bilgilerim_icerik div.teslimat_bilgilerim div.teslimat_bilgilerim_icerik,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim div.siparis_onayi_adres_bilgilerim_icerik div.fatura_bilgilerim div.fatura_bilgilerim_icerik,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.kargo_secimi div.kargo_secimi_icerik table:not(.banka_taksitler) tr td.kargo_td_2 img,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.odeme_secimi div.odeme_secimi_icerik table:not(.banka_taksitler) tr td.odeme_td_2 img,
+div.siparis_sayfasi_icerik_sol {
+    border-color: #ebeef0;
+}
+
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap div.icerik table,
+#PM_urun_detayi div.urun_onerileri p.baslik,
+#PM_urun_detayi div.urun_taglari p.baslik,
+ul.urun_detay_tablar_ul,
+#PM_urun_detayi div.urun_detay_orta div.urun_temin_edilemiyor,
+#PM_anasayfa_urunler div.urunler p.baslik,
+#PM_editorun_secimi p.baslik,
+#PM_markalar p.baslik,
+#PM_haberler p.baslik,
+#PM_anket p.baslik,
+#PM_linkler p.baslik,
+#PM_doviz p.baslik,
+.PM_cerceveli_modul p.baslik,
+#PM_begenilen_urunler p.baslik,
+#PM_en_cok_izlenen_urun p.baslik{
+	border-top-color:#cf92e8;
+	color: #434950;
+}
+
+
+.detay_bottom a:hover {
+	background:#fbf5fc;
+	color:#434950;
+}
+
+.yeni_urunler_daraltma div.ana_icerik div.icerik div.tumunu_goster a,
+.arama_urunleri_daraltma div.ana_icerik div.icerik div.tumunu_goster a,
+.indirimli_urunler_daraltma div.ana_icerik div.icerik div.tumunu_goster a,
+.kategori_urunleri_daraltma div.ana_icerik div.icerik div.tumunu_goster a {
+    color: #cf92e8;
+    background-color: #f7d9d9;
+}
+
+.yeni_urunler_daraltma div.ana_icerik div.darlatma_secilmisler div.secimleri_kaldir a,
+.arama_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler div.secimleri_kaldir a,
+.indirimli_urunler_daraltma div.ana_icerik div.darlatma_secilmisler div.secimleri_kaldir a,
+.kategori_urunleri_daraltma div.ana_icerik div.darlatma_secilmisler div.secimleri_kaldir a {
+    color: #e74c3c;
+}
+
+#urun_detay_tab4 div.yorumlar_bilgi {
+    border-color: #ebeef0;
+    background-color: #f9f9f9;
+}
+
+
+.siralamabutonlar a{
+    background: #f2e9f3;
+    color: #505558;
+}
+.siralamabutonlar a:hover{
+	background: #cf92e8;
+    color: #fff;
+    box-shadow: 0px 5px 20px #cf92e859;
+}
+
+.urunler_ust div.gosterim_secenekleri a.liste_ikon{
+	background:url(../images/liste_ico.png) top center no-repeat;
+}
+
+.urunler_ust div.gosterim_secenekleri a.katalog_ikon{
+	background:url(../images/katalog_ico.png) top center no-repeat;
+    border-left: 1px solid #f2e9f3;	
+}
+
+.urunler_ust div.gosterim_secenekleri a.katalog_ikon.resimli_aktif{
+	background:url(../images/katalog_ico_h.png) top center no-repeat;
+}
+.urunler_ust div.gosterim_secenekleri a.liste_ikon.listeli_aktif{
+	background:url(../images/liste_ico_h.png) top center no-repeat;
+}
+
+
+.yeni_urunler_daraltma p.ana_baslik,
+.arama_urunleri_daraltma p.ana_baslik,
+.indirimli_urunler_daraltma p.ana_baslik,
+.kategori_urunleri_daraltma p.ana_baslik,
+.etiket_urunleri_daraltma p.baslik {
+	background:#7e8c9e;
+	color:#fff;
+}
+
+div.siparis_sayfasi_icerik_sol div.teslimat_bilgileri div.icerik div.siparis_notu_div,
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik,
+div.siparis_sayfasi_icerik_sol div.teslimat_bilgileri div.icerik,
+div.siparis_sayfasi_icerik_sol div.fatura_bilgileri div.icerik,
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler h1.baslik,
+div.siparis_sayfasi_icerik_sol div.teslimat_bilgileri h1.baslik,
+div.siparis_sayfasi_icerik_sol div.fatura_bilgileri h1.baslik,
+.yeni_urunler_daraltma div.ana_icerik p.baslik,
+.arama_urunleri_daraltma div.ana_icerik p.baslik,
+.indirimli_urunler_daraltma div.ana_icerik p.baslik,
+.kategori_urunleri_daraltma div.ana_icerik p.baslik{
+	border-color:#ebeef0;
+}
+
+.sepet_son_toplamalar,
+#puanlarim form table.tablo_2 td.baslik,
+#ceklerim form table.tablo_2 td.baslik,
+#urun_detay_tab2 div.urun_kampanyalari div.secili,
+div.banka_taksit_secenkeleri table tr.taksit_satir_2,
+.urunler_main div.urunler div.icerik div.urun_liste.row_2{
+    background-color: #f9f9f9;
+}
+
+#ust_uyelik_alani:hover .uyelikisim1,
+#ust_uyelik_alani:hover .uyelikisim2{
+	color:#cf92e8;
+}
+
+#urun_arama_input,
+#urun_arama_select,
+.menum > ul > li > ul,
+.menum > ul{
+	border-color:#cf92e8;
+}
+
+
+#ust_uye_panel_ul div {
+	border-color: #ebeef0;
+    background-color: #ffffff;
+}
+
+
+.acilirmenu > ul > li > ul > li:hover a
+.acilirmenu > ul > li > ul > li > ul > li:hover a
+#ust_sepet_kismi:hover label{
+	color:#cf92e8;
+}
+
+#ust_uye_giris_ul .facebook_login_button a{
+	background:#2980b9;
+	color:#fff;
+}
+#ust_uye_giris_ul .facebook_login_button a:hover{
+	background:#2075ad;
+}
+
+.acilirmenu > ul > li > a,
+#ust_ek_menu_2 li a {
+    color: #434950;
+}
+
+.acilirmenu > ul > li > ul > li:hover > a > .arrow_right,
+.menum > ul > li > ul > li:hover > a > .arrow_right,
+.menum > ul > li:hover > a > .arrow_right{
+    color: #cf92e8;	
+}
+
+.menum .baslik{
+	background-color: #cf92e8;	
+	color:#fff;
+}
+#PM_kategoriler .menum > ul{
+	border-color: #cf92e8;	
+}
+
+.acilirmenu > ul > li:hover > a,
+#ust_ek_menu_2 li a:hover,
+#ust_ek_menuler_yerlesimi .home {
+    background-color: #fbf5fc;
+}
+
+.yia_kirinti {
+border-color:#cf92e8;
+}
+
+.menum div.menu_show {
+    background-color: #999;
+}
+
+.acilirmenu > ul > li > ul > li > ul,
+.acilirmenu > ul > li > ul,
+.menum > ul > li > ul,
+.menum > ul > li > ul > li > ul {
+    border-color: #e2e6e8;
+	background:#fff;
+
+}
+
+#ust_ek_menuler_yerlesimi .Popup {
+    border-color: #cf92e8!important;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    box-shadow: 0 6px 12px rgba(0,0,0,.25);
+}
+
+#PM_kategori_urunleri div.urunler_main div.indirimli_urunler,
+#PM_kategori_urunleri div.urunler_main div.yeni_urunler,
+#PM_kategori_urunleri div.urunler_main div.sizin_icin_sectiklerimiz {
+	background-color: #fff;
+    border-color: #ebeef0;
+	border-top-color:#cf92e8;
+}
+
+
+input[type="text"][disabled],
+input[type="password"][disabled],
+select[disabled],
+textarea[disabled],
+input[type="text"][readonly],
+input[type="password"][readonly],
+select[readonly],
+textarea[readonly] {
+    color: #888;
+    background-color: #f0f0f0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #cecece;
+}
+
+#sistem_mesaji {
+    color: #fff;
+    background-color: #cf92e8;
+	 box-shadow: 0 0px 12px 4px rgba(6, 6, 6, 0.12);
+}
+
+.ucan_header {
+	background: #fff;
+    box-shadow: 0 0px 12px 4px rgba(6, 6, 6, 0.12);
+}
+
+
+
+#sistem_mesaji div.icerik a,
+#sistem_mesaji p.baslik a {
+    color: #fff;
+}
+
+#sistem_mesaji div.icerik a,
+#sistem_mesaji p.baslik a:before {
+    color: #fff;
+}
+
+.row4,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_grup_isim,
+#sepet_detay div.sepet_dolu div.sepet_toplamlar table td.baslik {
+    background-color: #f7f7f7;
+}
+
+
+
+#PM_alt {
+    border-color: #cf92e8;
+    background-color: #f9f9f9;
+	
+}
+
+#PM_editorun_secimi,
+#PM_markalar,
+#PM_haberler,
+#PM_anket,
+#PM_linkler,
+#PM_doviz,
+.PM_cerceveli_modul,
+.PM_cercevesiz_modul,
+#PM_editorun_secimi,
+#PM_begenilen_urunler,
+#PM_en_cok_izlenen_urun,
+#uye_giris_kayit div.uye_giris h1,
+#uye_giris_kayit div.uye_kayit h3,
+#uye_kayit #uye_kayit_form1 p,
+#uye_kayit #uye_kayit_form2 p,
+#uye_kayit #uye_kayit_form3 p,
+#uye_bilgileri #uye_bilgileri_form1 p,
+#uye_bilgileri #uye_bilgileri_form2 p{
+    border-color:#e2e6e8!important;
+}
+
+
+#uye_kayit #uye_kayit_form1 p,
+#uye_kayit #uye_kayit_form2 p,
+#uye_kayit #uye_kayit_form3 p,
+#uye_bilgileri #uye_bilgileri_form1 p,
+#uye_bilgileri #uye_bilgileri_form2 p,
+#uye_giris_kayit div.uye_giris h1,
+#uye_giris_kayit div.uye_kayit h3{
+    color: #434950;	
+} 
+
+#PM_editorun_secimi p.baslik,
+#PM_markalar p.baslik,
+#PM_haberler p.baslik,
+#PM_anket p.baslik,
+#PM_linkler p.baslik,
+#PM_doviz p.baslik,
+.PM_cerceveli_modul p.baslik,
+#PM_begenilen_urunler p.baslik,
+#PM_en_cok_izlenen_urun p.baslik {
+    color: #434950;
+}
+
+#PM_editorun_secimi div.icerik div.editorun_secimi_sol_sag_butonlar, 
+#PM_en_cok_izlenen_urun div.icerik div.en_cok_izlenen_urun_sol_sag_butonlar, 
+#PM_begenilen_urunler div.icerik div.begenilen_urunler_sol_sag_butonlar {
+	border-top:1px solid #eaeaea;
+}
+
+#PM_editorun_secimi div.icerik a.sol_buton,
+#PM_en_cok_izlenen_urun div.icerik a.sol_buton,
+#PM_begenilen_urunler div.icerik a.sol_buton,
+#PM_editorun_secimi div.icerik a.sag_buton,
+#PM_en_cok_izlenen_urun div.icerik a.sag_buton,
+#PM_begenilen_urunler div.icerik a.sag_buton {
+    background-image: url(../images/modul_oklar.png);
+	background-color:#f9f9f9;
+	transition: all 0.20s ease-in-out;	
+}
+
+#PM_editorun_secimi div.icerik a.sol_buton,
+#PM_en_cok_izlenen_urun div.icerik a.sol_buton,
+#PM_begenilen_urunler div.icerik a.sol_buton {
+    background-position: bottom center;
+	border-color:#e2e6e8;
+}
+
+#PM_editorun_secimi div.icerik a.sol_buton:hover,
+#PM_en_cok_izlenen_urun div.icerik a.sol_buton:hover,
+#PM_begenilen_urunler div.icerik a.sol_buton:hover,
+#PM_editorun_secimi div.icerik a.sag_buton:hover,
+#PM_en_cok_izlenen_urun div.icerik a.sag_buton:hover,
+#PM_begenilen_urunler div.icerik a.sag_buton:hover {
+   background-color:#f5f5f5;
+}
+
+
+
+#PM_editorun_secimi div.icerik a.sag_buton,
+#PM_en_cok_izlenen_urun div.icerik a.sag_buton,
+#PM_begenilen_urunler div.icerik a.sag_buton {
+    background-position: top center;
+}
+
+
+
+.PM_cerceveli_modul div.icerik {
+    border-color: #e2e6e8;
+}
+
+
+
+#PM_xml_banner #controls li a {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16)!important;
+}
+
+#PM_xml_banner #controls li a:hover {
+    background-color: #cf92e8!important;
+    color: #fff!important;
+    border-color: #fff;
+}
+
+#PM_xml_banner #controls li.current a {
+    background-color: #cf92e8!important;
+    color: #000!important;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16)!important;
+}
+
+.reform-thumbnailslider ul.small-container li.active-small {
+    border-color: #ccc!important;
+    box-shadow:none!important;
+}
+
+.reform-thumbnailslider ul.big-container li {
+    border-color: rgb(187, 187, 187)!important;
+}
+
+.reform-thumbnailslider ul.small-container li {
+    border-color: #ccc!important;
+}
+
+
+
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap div.icerik table td {
+    border-color: #efefef;
+}
+
+.nav > li.disabled > a ,
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+    color: #999;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    border-color: #428bca;
+    background-color: #f5f5f5;
+}
+
+#urun_detay_tab2 div.urun_kampanyalari div.secili p,
+.nav .nav-divider {
+    background-color: #f9f9f9;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border-color: #f0f0f0;
+    background-color: #fff;
+    border-bottom-color: transparent;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.tabs-left {
+    border-color: #f0f0f0;
+}
+
+.tabs-right {
+    border-color: #f0f0f0;
+}
+
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+    border-bottom-color: #f0f0f0;
+    border-right-color: transparent;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+    border-bottom: 1px solid #dedede;
+    border-left-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-tabs.nav-justified > li > a {
+        border-color: #dedede;
+    }
+
+    .nav-tabs-justified > li > a {
+        border-color: #dedede;
+    }
+
+    .nav-tabs.nav-justified > .active > a,
+	.nav-tabs.nav-justified > .active > a:hover,
+	.nav-tabs.nav-justified > .active > a:focus,
+	.nav-tabs-justified > .active > a,
+	.nav-tabs-justified > .active > a:hover,
+	.nav-tabs-justified > .active > a:focus {
+        border-bottom-color: #fff;
+    }
+}
+
+.urun_onerileri .jcarousel-next-horizontal {
+    background: url(../images/onerilen_urunler_arrows.jpg) no-repeat -20px 0;
+}
+
+.urun_onerileri .jcarousel-prev-horizontal {
+    background: url(../images/onerilen_urunler_arrows.jpg) no-repeat;
+}
+
+.urunler_main div.urunler div.icerik div.urun_yok_kategoriler_resimli li div {
+    border-color: #e2e6e8;
+    background-color: #fff;
+}
+
+.urunler_main div.urunler div.icerik div.urun_yok_kategoriler_resimli li a span {
+	color: #333;
+    background-color: #fff;
+    border-color: #e2e6e8;
+}
+
+.urunler_main div.urunler div.icerik div.urun_yok_kategoriler_resimli li a:hover span {
+    border-color: #e7e7e7;
+    color: #999;
+    background-color: #fff;
+}
+.urunler_ust div.sayfalama_secenekleri_1 li a,
+.urunler_main div.urunler div.icerik div.urunler_alt div.sayfalama_secenekleri_2 li a {
+	border:1px solid #d9dee8;
+}
+
+.urunler_ust div.sayfalama_secenekleri_1 ul,
+.urunler_main div.urunler div.icerik div.urunler_alt div.sayfalama_secenekleri_2 ul {
+    background: #fbf5fc;
+}
+
+.yeni_urunler_daraltma div.ana_icerik div.icerik ul li.with_cb:hover,
+.arama_urunleri_daraltma div.ana_icerik div.icerik ul li.with_cb:hover,
+.indirimli_urunler_daraltma div.ana_icerik div.icerik ul li.with_cb:hover,
+.kategori_urunleri_daraltma div.ana_icerik div.icerik ul li.with_cb:hover {
+    color:#cf92e8;
+}
+
+#urun_detay_tab4 div.yorumlar div.yorum p.baslik{
+    border-color: #ebeef0;	
+}
+
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap div.icerik table th,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_arama_sonuc p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_icerik p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_iletisim p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_hakkimizda p.baslik,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap p.baslik{
+	background:#f5f5f5;
+}
+.urunler_alt,
+.urunler_ust,
+#ust_sepet_kismi #sepet_detay_mini .sepet_toplamlar {
+    background: #fbf5fc!important;
+}
+
+
+#sepet_detay div.sepet_dolu div.sepet_urunler{
+	border-top-color:#cf92e8!important;	
+}
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_kargo_bedava p.sepet_oneriler_kargo_bedava_baslik, 
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_taksitlendirin p.sepet_oneriler_taksitlendirin_baslik, 
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_guvenli_alisveris p.sepet_oneriler_guvenli_alisveris_baslik {
+    background: #F5F5F5;
+    color: #5B6369;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu p.sepet_oneriler_bu_urunleri_gordunuzmu_baslik {
+    background: #cf92e8;
+    color: #fff;
+}
+
+
+
+.urunler_ust div.sayfalama_secenekleri_1 li a.sayfalama_secili_sayfa,
+.urunler_main div.urunler div.icerik div.urunler_alt div.sayfalama_secenekleri_2 li a.sayfalama_secili_sayfa {
+	background: #cf92e8;
+    color: #fff;
+    box-shadow: 0px 5px 20px #cf92e859;
+}
+
+
+.urunler_ust div.sayfalama_secenekleri_1 li a.sayfalama_secili_sayfa:hover,
+.urunler_main div.urunler div.icerik div.urunler_alt div.sayfalama_secenekleri_2 li a.sayfalama_secili_sayfa:hover {
+	background: #be75dc;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_resmi a {
+    border-color: #e5e5e5;
+    background-color: #fff;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.indirimli_urun {
+    border-top-color: #666;
+    color: #FFF;
+    background: url(../images/indirim.png);
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.urun_kdvdahil_fiyati {
+    color: #cf92e8;
+}
+
+.urunler_main div.urunler div.icerik div.urun_yok_kategoriler_resimsiz li a {
+    color: #fff;
+    background-color: #cf92e8;
+}
+.urunler_main div.urunler div.icerik div.urun_yok_kategoriler_resimsiz li a:hover {
+    background-color: #6a7584;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_ismi div.urun_ikonlar a {
+    background: #cf92e8;
+    color: #fff;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_ismi div.urun_ikonlar .indirimli_urun_ikon_a {
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_ismi div.urun_ikonlar .kitik_stok_urun_ikon_a {
+    background: #e74c3c;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.urun_butonlar a:before {
+    color: #fff;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.urun_butonlar a.urun_sepete_ekle:before {
+    background-color: #cf92e8;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.urun_butonlar a.urun_sepete_ekle:hover:before {
+    background: #be75dc;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.urun_butonlar a.urun_hemen_al:before {
+    background: #cf92e8;
+}
+
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.urun_butonlar a.urun_hemen_al:hover:before {
+    background: #be75dc;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.urunu_incele a {
+    background: url(../images/pc_topla_urun_incele.png) no-repeat center center;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urun_secim div.pc_topla_urun_secim_icerik {
+    background: url(../images/pctopla_ok.png) no-repeat 586px;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urun_secim div.pc_topla_urun_secim_icerik div.urun div.urun_stok_fiyat.stok_yok {
+    color: #e74c3c;
+    background: url(../images/secimi_kaldir.png) no-repeat left center;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urun_secim div.pc_topla_urun_secim_icerik div.urun div.urun_stok_fiyat.stok_var {
+    color: #cf92e8;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container div.pc_topla_urunler_icerik div.pc_topla_urunler_container_loading {
+    background: url(../images/pc_topla_load.gif) no-repeat right 10px;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container div.pc_topla_urunler_icerik div.urun_bulunamadi {
+    color: #e74c3c;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container div.pc_topla_urunler_icerik ul li {
+    border-color: #f0f0f0;
+}
+
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.pc_topla_doviz_kurlari,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.butonlar,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container div.pc_topla_urunler_icerik ul li:hover {
+    background-color: #F5F5F5;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container div.pc_topla_urunler_icerik ul li div.urun div.urun_stok_fiyat.stok_yok {
+    color: #e74c3c;
+    background: url(../images/secimi_kaldir.png) no-repeat left center;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container div.pc_topla_urunler_icerik ul li div.urun div.urun_stok_fiyat.stok_var {
+    color: #cf92e8;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.butonlar div.pc_topla_email_div {
+    border-color: #e0e0e0;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.toplam_fiyatlar table tr.genel_toplam td {
+    border-color: #ebeef0;
+    color: #cf92e8;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.toplam_fiyatlar table tr.havale td,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sag div.toplam_fiyatlar table tr.tek_cekim td {
+    color: #cf92e8;
+}
+
+div.siparis_sayfasi_adimlar .list-group > .list-group-item {
+	color: #d3c1da;
+    background-color: #fff;
+    border-color: #ebeef0;
+	border-top-color: #cf92e8;
+}
+
+div.siparis_sayfasi_adimlar .list-group > .list-group-item.active {
+    color: #fff;
+    border-color: #cf92e8;
+    background-color: #cf92e8;
+}
+
+div.siparis_sayfasi_adimlar .list-group > .list-group-item.active:after {
+	border-color: #cf92e8  transparent transparent transparent;
+}
+
+div.siparis_sayfasi_adimlar .list-group > .list-group-item.done {
+    color: #d3c1da;
+    border-color: #dde5ea;
+    background-color: #fbf5fc;
+	border-top-color: #cf92e8;
+}
+
+div.siparis_sayfasi_adimlar .list-group > .list-group-item.done:hover {
+    color: #cf92e8;
+}
+
+
+
+
+.detay_bottom .urun_ikonlar i.la-archive{
+    border-color:#ebeef0;
+	color:#e24040;
+}
+
+.detay_bottom .urun_ikonlar i.la-archive:after {
+    color: #e24040;
+}
+
+
+
+
+
+.detay_bottom .urun_ikonlar div.urun_temin_suresi,
+.detay_bottom .urun_ikonlar i.la-clock-o,
+.detay_bottom .urun_ikonlar i.la-truck{
+    border-color:#ebeef0;
+	color:#be75dc;
+}
+
+.detay_bottom .urun_ikonlar div.urun_temin_suresi,
+.detay_bottom .urun_ikonlar i.la-clock-o:after,
+.detay_bottom .urun_ikonlar i.la-truck:after {
+    color: #be75dc;
+}
+
+.detay_bottom .urun_ikonlar div.urun_temin_suresi .urun_temin_suresi_gun,
+.detay_bottom .urun_ikonlar div.urun_temin_suresi:after {
+    color: #be75dc;
+}
+.detay_bottom .urun_ikonlar div.urun_temin_suresi i{
+	color:#be75dc;
+}
+
+
+
+.tab_container,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_sepet_bilgilerim,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim {
+    border-color: #eaeaea;
+    background-color: #fff;
+}
+
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div a.email_oneri_kapat:before {
+    color: #000;
+}
+
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a:before {
+    color: #FFF;
+}
+
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a.facebook_login_button:before{
+	background: #3b5998;
+}
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a.google_login_button:before{
+	background: #CF4332;
+}
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a.twitter_login_button:before{
+	background: #55acee;
+}
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a.facebook_login_button:hover:before{
+	background:#334e86;
+}
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a.google_login_button:hover:before{
+	background:#AF3123;
+}
+div.siparis_sayfasi_icerik_sol div.kisisel_bilgiler div.icerik table #email_kontrol_sonuc div.fb_login_div a.twitter_login_button:hover:before{
+	background:#41A0E9;
+}
+
+.kredi_karti_taksit_tabs_sections .taksit_banka_row div a,
+ul.odeme_secenekleri_tablar_ul li a {
+	border-color: #e2e6e8;
+    background-color: #f5f5f5;
+}
+
+.kredi_karti_taksit_tabs_sections .taksit_banka_row div.active a,
+ul.odeme_secenekleri_tablar_ul li.active a {
+    border-color: #f0f0f0;
+    background-color: #fff;
+	color:#434950;
+}
+
+ul.odeme_secenekleri_tablar_ul li.active a{
+	border-bottom-color:transparent;
+}
+
+.kredi_karti_taksit_tabs_sections .taksit_banka_row div:not(.active) a:hover,
+ul.odeme_secenekleri_tablar_ul li:not(.active) a:hover {
+    background-color: #efefef;
+	color:#434950;
+}
+
+
+
+#taksit_seceneklerim div.taksit_seceneklerim_container {
+    border-color: #bce8f1;
+}
+
+.siparis_sayfasi_icerik_sol div.banka_taksit_secenkeleri table.banka_taksitler tr:not(.basliklar):not(.secili):hover td {
+    background-color: #f5f5f5;
+}
+
+div.banka_taksit_secenkeleri table.banka_taksitler tr.basliklar td {
+    border-bottom-color: #dedede;
+}
+
+div.siparis_sayfasi_icerik_sol div.son_tutar_div {
+    border-color: #e3e3e3;
+    background-color: #f0f0f0;
+}
+
+div.siparis_sayfasi_icerik_sol h1.siparis_onayi_sepet_bilgilerim_baslik,
+div.siparis_sayfasi_icerik_sol h1.siparis_onayi_adres_bilgilerim_baslik,
+div.siparis_sayfasi_icerik_sol h1.siparis_onayi_odeme_bilgilerim_baslik {
+    border-color: #f0f0f0;
+	background:#f5f5f5;
+}
+
+div.siparis_sayfasi_icerik_sol h1.siparis_onayi_sepet_bilgilerim_baslik p,
+div.siparis_sayfasi_icerik_sol h1.siparis_onayi_adres_bilgilerim_baslik p,
+div.siparis_sayfasi_icerik_sol h1.siparis_onayi_odeme_bilgilerim_baslik p {
+    color: #434950;
+}
+
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim div.siparis_onayi_odeme_bilgilerim_icerik,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim div.siparis_onayi_adres_bilgilerim_icerik {
+    background-color: #fff;
+}
+
+#sepet_detay_mini .urun {
+    border-color: #f0f0f0;
+}
+
+#sepet_detay_mini .urun:last-child {
+    border-bottom-color: #fff;
+}
+
+.sepet_son_toplamalar tr.indirim td.deger {
+    color: #5cb85c;
+}
+
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_adres_bilgilerim div.siparis_onayi_adres_bilgilerim_icerik div.teslimat_bilgilerim {
+    border-bottom-color: #f0f0f0;
+}
+
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_odeme_bilgilerim div.siparis_onayi_odeme_bilgilerim_icerik table td.baslik img {
+    border-color: #bce8f1;
+    background-color: #fff;
+}
+
+#satis_sozlemesi_alt input {
+    color: #fff;
+}
+
+#satis_sozlemesi_alt input:first-child {
+    background-color: #e74c3c;
+}
+
+
+#satis_sozlemesi_alt input:first-child:hover {
+    background: #d23a2a;
+}
+
+#satis_sozlemesi_alt input:last-child {
+    background-color: #cf92e8;
+}
+
+#satis_sozlemesi_icerik {
+    border-color: #dedede;
+    background-color: #f9f9f9;
+}
+
+#satis_sozlemesi_icerik #satis_sozlemesi_icerik_icerik #sozlesme_siparis_urunleri table {
+    border-color: #ccc;
+}
+
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.kargo_secimi div.kargo_secimi_icerik table:not(.banka_taksitler) tr td,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.odeme_secimi div.odeme_secimi_icerik table:not(.banka_taksitler) tr td {
+    border-color: #f0f0f0;
+}
+
+
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.kargo_secimi div.kargo_secimi_icerik table:not(.banka_taksitler) tr:hover,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.odeme_secimi div.odeme_secimi_icerik table:not(.banka_taksitler) tr:hover {
+    background: #f5f5f5;
+}
+
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.kargo_secimi div.kargo_secimi_icerik table:not(.banka_taksitler) tr.secili td.kargo_td_2 img,
+div.siparis_sayfasi_icerik_sol div.odeme_secenekleri div.icerik div.odeme_secimi div.odeme_secimi_icerik table:not(.banka_taksitler) tr.secili td.odeme_td_2 img {
+    border-color: #bce8f1;
+}
+
+
+
+
+#sepet_detay div.sepet_dolu div.sepet_urunler table tr.liste_satir_2,
+.zoomPreload {
+    background: #f9f9f9;
+}
+
+#sepet_detay div.sepet_dolu div.sepet_urunler table tr.liste_satir_2.secili {
+    background: #d7e3ef;
+}
+
+#sepet_detay div.sepet_dolu div.sepet_toplamlar table td {
+    border-color: #fff;
+}
+
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.vade_farki_aciklama {
+    color: #e74c3c;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.sepet_oneriler_bu_urunleri_gordunuzmu_sol_sag_butonlar a.sol_buton,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.sepet_oneriler_bu_urunleri_gordunuzmu_sol_sag_butonlar {
+    border-color: #cf92e8;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.sepet_oneriler_bu_urunleri_gordunuzmu_sol_sag_butonlar a.sol_buton {
+    background: url(../images/sepet_onderi_iler_geri.gif) bottom right;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.sepet_oneriler_bu_urunleri_gordunuzmu_sol_sag_butonlar a.sol_buton:hover {
+    background-color: #f5f5f5;
+}
+
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.sepet_oneriler_bu_urunleri_gordunuzmu_sol_sag_butonlar a.sag_buton {
+    background: url(../images/sepet_onderi_iler_geri.gif) top right;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.sepet_oneriler_bu_urunleri_gordunuzmu_sol_sag_butonlar a.sag_buton:hover {
+    background-color: #f5f5f5;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.urun_ismi a {
+    color: #000;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.urun_stok_yok {
+    color: #a94442;
+    background: #f2dede;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.indirimli_urun {
+    color: #FFF;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.urun_kdvdahil_fiyati {
+    color: #cf92e8;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.urun_fiyati_yok {
+    color: #854f23;
+}
+
+#sepet_detay div.sepet_oneriler > div:not(.sepet_oneriler_bu_urunleri_gordunuzmu) div.urun {
+    border-color: #ebeef0;
+    background-color: #fff;
+}
+
+#sepet_detay div.sepet_oneriler > div:not(.sepet_oneriler_bu_urunleri_gordunuzmu) div.urun div.urun_kdvdahil_fiyati {
+    color: #cf92e8;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_guvenli_alisveris {
+    border-color: #ebeef0;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_guvenli_alisveris div.sepet_oneriler_guvenli_alisveris_icerik li {
+    border-color: #ebeef0;
+    background: url(../images/guvenlik_sepet.png) no-repeat;
+}
+
+
+#sepet_detay div.sepet_dolu div.sepet_toplamlar table tr.indirim,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.urun_ismi a:hover {
+    color: #cf92e8;
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu{
+    border-color: #cf92e8;	
+}
+
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_kargo_bedava,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_taksitlendirin {
+    border-color: #ebeef0;
+}
+
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.odeme_bekleniyor_aciklama div.havale_bildirim {
+    background-color: #C2DAAE;
+}
+
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_iptali_goster a {
+    color: #a94442;
+}
+
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table th,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_urunler table th {
+    background-color: #f0f0f0;
+}
+
+#PM_siparis_sonu div.siparis_sayfasi_icerik {
+    border-color: #ebeef0;
+}
+
+#PM_siparis_sonu div.siparis_sayfasi_icerik div.siparis_sonu_aciklama span.bilgi {
+    border-top-color: #dedede;
+}
+
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat table td div.uye_indirimli_urun_fiyati,
+#PM_siparis_sonu div.siparis_sayfasi_icerik div.siparis_sonu_aciklama span.bilgi a {
+    color: #434950;
+}
+
+#PM_siparis_sonu div.siparis_sayfasi_icerik ul li {
+    background-color: #f5f5f5;
+    border-color: #ebeef0;
+}
+
+#siparis_takibi #siparis_takibi_form p {
+    border-bottom-color: #efefef;
+    background: url(../images/uyelik_numbers.gif) no-repeat;
+}
+
+#siparis_takibi #siparis_takibi_buton input:hover {
+    background-color: #176ab4;
+}
+
+#siparis_takibi #bildirim_btn {
+    color: #FFF;
+}
+
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.odeme_bekleniyor_aciklama div.havale_bildirim {
+    border-top-color: #C2DAAE;
+}
+
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urunler_container,
+#sepet_detay div.sepet_dolu div.sepet_urunler,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.sepet_son_toplamalar,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_onayi_adres_bilgilerim,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_onayi_adres_bilgilerim div.siparis_onayi_adres_bilgilerim_icerik div.fatura_bilgilerim,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_urunler table,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table th,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.siparis_urunler table th,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.sepet_son_toplamalar,
+#alisveris_listesi form table,
+#fiyat_alarm_listesi form table,
+#kiyaslama_listesi form table,
+#stok_alarm_listesi form table,
+#puanlarim form table.tablo_1,
+#ceklerim form table.tablo_1,
+#takip div.icerik table,
+#bildirim_listesi form table,
+#bildirim_listesi form table th,
+#alisveris_listesi form table th,
+#fiyat_alarm_listesi form table th,
+#kiyaslama_listesi form table th,
+#stok_alarm_listesi form table th,
+#adres_bilgileri form table,
+#PM_musteri_hizmetleri #PM_musteri_hizmetleri_banka_hesap div.icerik table th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri,
+#siparislerim div.icerik table ,
+#siparislerim div.icerik table th,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table th,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_urunler table th, 
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_urunler table,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_onayi_adres_bilgilerim,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_onayi_adres_bilgilerim div.siparis_onayi_adres_bilgilerim_icerik div.fatura_bilgilerim {
+    border-color: #ebeef0;
+    background-color: #fff;
+}
+
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_iptali_goster {
+    color: #a94442;
+    border-color: #ebccd1;
+    background: #f2dede;
+}
+
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_iptali_goster a {
+    color: #a94442;
+}
+
+#siparislerim div.icerik table th,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table th,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_urunler table th {
+    
+}
+
+#sifre_degistirme_form1,
+#uye_kayit #uye_kayit_form1,
+#uye_kayit #uye_kayit_form2,
+#uye_kayit_form3,
+#uye_bilgileri #uye_bilgileri_form1,
+#uye_bilgileri #uye_bilgileri_form2,
+#uye_giris_kayit div.uye_giris h1,
+#uye_giris_kayit div.uye_kayit h3,
+#alisveris_listesi form table,
+#fiyat_alarm_listesi form table,
+#kiyaslama_listesi form table,
+#stok_alarm_listesi form table,
+#puanlarim form table.tablo_1,
+#ceklerim form table.tablo_1,
+#takip div.icerik table,
+#bildirim_listesi form table,
+#adres_bilgileri form table,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_genel_bilgiler table,
+#siparis_takibi_sonuc div.siparis_takibi_sonuc_icerik div.siparis_detay div.siparis_urunler table,
+#siparislerim div.icerik table{
+	border-top-color:#cf92e8!important;
+}
+
+#siparislerim div.icerik table tr.kayit_yok td {
+    color: #e74c3c;
+}
+
+#siparislerim div.icerik table tr.liste_satir_2 {
+   
+}
+
+.urun_fiyati_ozel,
+div.fatura_gonderim_sekli,
+#PM_orta div.urun div.indirimsiz_urun_fiyati,
+#PM_orta div.urun div.indirimsiz_urun_kdvdahil_fiyati,
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat div.indirimsiz_urun_fiyati,
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.indirimsiz_urun_fiyati,
+.urunler_main div.urunler div.icerik div.urun_liste td.urun_fiyatlari div.indirimsiz_urun_kdvdahil_fiyati,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_topla_urun_secim div.pc_topla_urun_secim_icerik div.urun_seciniz_zorunlu ,
+#pc_topla div.icerik div.pc_topla_orta div.pc_topla_sol div.pc_topla_sol_grup div.pc_toplama_urun_adet label.inaktif,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.sepet_son_toplamalar table tr.indirim td.baslik,
+#siparis_detayi_sonuc div.siparis_detayi_sonuc_icerik div.siparis_detay div.sepet_son_toplamalar table tr.indirim td.deger,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.indirimsiz_urun_fiyati,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_bu_urunleri_gordunuzmu div.sepet_oneriler_bu_urunleri_gordunuzmu_icerik div.urun div.indirimsiz_urun_kdvdahil_fiyati,
+#sepet_detay div.sepet_oneriler > div:not(.sepet_oneriler_bu_urunleri_gordunuzmu) div.urun div.indirimsiz_urun_fiyati,
+#sepet_detay div.sepet_oneriler > div:not(.sepet_oneriler_bu_urunleri_gordunuzmu) div.urun div.indirimsiz_urun_kdvdahil_fiyati,
+#sepet_detay div.sepet_dolu div.sepet_urunler table td strike{
+    color: #999!important;
+}
+
+#PM_orta div.urun div.urun_fiyati {
+    color: #373a3f;
+}
+
+#PM_orta div.urun div.urun_kdvdahil_fiyati{
+	color: #cf92e8;
+}
+
+#PM_orta div.urun div.urun_fiyati_yok {
+    color: #a94442;
+    background-color: #f2dede;
+}
+
+#PM_urun_detayi div.urun_detay_kategori_agaci ul li {
+    color: #7e7e7e;
+    background: url(../images/kategori_agaci_ok.png) no-repeat left top;
+}
+
+#PM_kategori_urunleri div.kategori_urunleri_kategori_agaci ul li {
+    color: #7e7e7e;
+    background: url(../images/kategori_agaci_ok.png) no-repeat left top;
+}
+
+.zoomPreload {
+    background: #FFF url(../images/zoomloader.gif) no-repeat 43px 30px;
+}
+
+.zoomPup {
+    background-color: #fff;
+    border-color: #d8d8d8;
+}
+
+.zoomWindow,
+div.banka_taksit_secenkeleri table.banka_taksitler tr:first-child,
+#PM_siparis_sayfasi_adim3 div.siparis_sayfasi_icerik_sol div.siparis_onayi div.icerik div.siparis_onayi_sepet_bilgilerim div.siparis_onayi_sepet_bilgilerim_icerik,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_guvenli_alisveris div.sepet_oneriler_guvenli_alisveris_icerik li.kk_guvenligi div,
+#sepet_detay div.sepet_oneriler div.sepet_oneriler_guvenli_alisveris div.sepet_oneriler_guvenli_alisveris_icerik li.ssl_sertifikasi div,
+#urun_detay_tab3 div.banka_taksit_secenkeleri div.virt_banka_taksitler,
+#siparis_detayi {
+    background-color: #fff;
+}
+
+.zoomWrapper {
+    border-color: #d8d8d8;
+}
+
+.zoomWrapperTitle {
+    color: #FFF;
+}
+
+
+#PM_urun_detayi div.urun_resmi_kucuk {
+    
+}
+
+
+#PM_urun_detayi div.urun_taglari .icerik,
+#PM_urun_detayi div.urun_resmi_kucuk img {
+    border-color: #e2e6e8;
+}
+
+
+
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat table td div.urun_fiyati,
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat div.uye_indirimli_urun_fiyati,
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat div.urun_fiyati {
+    color: #cf92e8;
+}
+
+
+
+
+#PM_urun_detayi #arttir,
+#PM_urun_detayi #azalt {
+    color: #434950;
+	border-color:#e2e6e8;
+}
+
+#PM_urun_detayi #arttir:hover,
+#PM_urun_detayi #azalt:hover {
+    background-color: #f5f5f5;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri .taksit_not,
+#urun_detay_tab1 div.urun_ozellikler div.kiyasla_div a,
+#urun_detay_tab1 div.urun_ozellikler table td.baslik a {
+    color: #fff;
+}
+
+#urun_detay_tab2 div.urun_kampanyalari div.kampanya_urun.urun_resimsiz_kampanya {
+    border-color: #ebeef0;
+    background: url(../images/kampanyali_urun_detay.png) no-repeat 12px 12px;
+    background-color: #fff;
+}
+
+#urun_detay_tab2 div.urun_kampanyalari div.kampanya_urun div.model4_aciklama {
+    color: #777;
+}
+
+#urun_detay_tab2 div.urun_kampanyalari p {
+    border-color: #f0f0f0;
+}
+
+#urun_detay_tab3 #banka_taksitler_1 th,
+#urun_detay_tab3 #banka_taksitler_7 th,
+#urun_detay_tab3 #banka_taksitler_13 th,
+#urun_detay_tab3 #banka_taksitler_15 th,
+#urun_detay_tab3 #banka_taksitler_18 th {
+    background-color: #67CB33;
+}
+
+#urun_detay_tab3 #banka_taksitler_7 th {
+    background-color: #67CB33;
+}
+
+#urun_detay_tab3 #banka_taksitler_3 th {
+    background-color: #13438F;
+}
+
+#urun_detay_tab3 #banka_taksitler_10 tr.basliklar  td {
+    background-color: #00a6d6!important;
+}
+
+#urun_detay_tab3 #banka_taksitler_12 th {
+    background-color: #35A3BE;
+}
+
+
+#urun_detay_tab3 #banka_taksitler_1 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_7 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_13 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_15 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_18 .taksit_not {
+    background-color: #67CB33;
+}
+
+#urun_detay_tab3 #banka_taksitler_1 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_7 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_13 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_15 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_18 .taksit_not i{
+    color: #67CB33;
+}
+
+#urun_detay_tab3 #banka_taksitler_2 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_17 .taksit_not {
+    background-color: #DFBD00;
+}
+
+#urun_detay_tab3 #banka_taksitler_2 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_17 .taksit_not i {
+    color: #DFBD00;
+}
+
+#urun_detay_tab3 #banka_taksitler_4 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_8 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_9 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_11 .taksit_not {
+    background-color: #863D6F;
+}
+#urun_detay_tab3 #banka_taksitler_4 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_8 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_9 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_11 .taksit_not i {
+    color: #863D6F;
+}
+
+#urun_detay_tab3 #banka_taksitler_3 .taksit_not {
+    background-color: #4987E7;
+}
+#urun_detay_tab3 #banka_taksitler_3 .taksit_not i{
+    color: #4987E7;
+}
+
+#urun_detay_tab3 #banka_taksitler_6 .taksit_not {
+    background-color: #FF1E7B;
+}
+#urun_detay_tab3 #banka_taksitler_6 .taksit_not i{
+    color: #FF1E7B;
+}
+
+#urun_detay_tab3 #banka_taksitler_12 .taksit_not {
+    background-color: #8AC4CF;
+}
+#urun_detay_tab3 #banka_taksitler_12 .taksit_not i{
+    color: #8AC4CF;
+}
+
+#urun_detay_tab3 #banka_taksitler_10 .taksit_not {
+    background-color: #00a6d6;
+}
+#urun_detay_tab3 #banka_taksitler_10 .taksit_not i{
+    color: #00a6d6;
+}
+
+#urun_detay_tab3 #banka_taksitler_5 .taksit_not {
+    background-color: #fb6824;
+}
+#urun_detay_tab3 #banka_taksitler_5 .taksit_not i{
+    color: #fb6824;
+}
+
+#urun_detay_tab3 #banka_taksitler_14 .taksit_not {
+    background-color: #C78925;
+}
+#urun_detay_tab3 #banka_taksitler_14 .taksit_not i{
+    color: #C78925;
+}
+
+#urun_detay_tab3 #banka_taksitler_16 .taksit_not,
+#urun_detay_tab3 #banka_taksitler_19 .taksit_not {
+    background-color: #ec1b2d;
+}
+#urun_detay_tab3 #banka_taksitler_16 .taksit_not i,
+#urun_detay_tab3 #banka_taksitler_19 .taksit_not i{
+    color: #ec1b2d;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri table tr.taksit_satir_2 {
+    background: #f5f5f5;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_3 tr.basliklar td {
+    color: #fff;
+    background-color: #4987E7;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_12 tr.basliklar td {
+    color: #fff;
+    background-color: #8AC4CF;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_14 tr.basliklar td {
+    color: #FFF;
+    background: #c78925;
+}
+
+#urun_detay_tab4 div.yorumlar div.yorum p.baslik span.isim {
+    background: url(../images/yorum.png) no-repeat center left;
+}
+
+#urun_detay_tab4 ul.simplePagerNav li a:hover {
+    background: #f5f5f5;
+}
+
+#urun_detay_tab4 ul.simplePagerNav li.currentPage a {
+    background: #f0f0f0;
+}
+
+#teklif_iste_btn:hover {
+    background-color: #176ab4;
+}
+#PM_urun_detayi div.urun_onerileri div.icerik .jcarousel-next-horizontal:hover,
+#PM_urun_detayi div.urun_onerileri div.icerik .jcarousel-prev-horizontal:hover{
+	background-color:#e2e2e2;
+}
+
+#PM_urun_detayi div.urun_onerileri div.icerik .jcarousel-next-horizontal {
+    border-color: #e2e6e8;
+    background:url(../images/onerilen_urunler_arrows.png) no-repeat -27px 4px;
+}
+
+#PM_urun_detayi div.urun_onerileri div.icerik .jcarousel-prev-horizontal {
+    border-color: #e2e6e8;
+    background:url(../images/onerilen_urunler_arrows.png) no-repeat 3px 4px;
+}
+
+#PM_urun_detayi div.urun_taglari div.icerik ul li a {
+    background-color: #cf92e8;
+    color: #fff;
+}
+
+#PM_urun_detayi div.urun_taglari div.icerik ul li a:hover {
+    background-color: #be75dc;
+}
+
+
+#urun_detay_tab1 div.urun_aciklama table.entegrasyon_ozellik tr.ozellik_2,
+#urun_detay_tab1 div.urun_ozellikler table tr.ozellik_2 {
+    background: #f5f5f5;
+}
+
+#urun_detay_tab1 div.urun_aciklama table.entegrasyon_ozellik td,
+#urun_detay_tab1 div.urun_ozellikler table td {
+    border-color: #fff;
+}
+
+#urun_detay_tab1 div.urun_aciklama table.entegrasyon_ozellik td.baslik,
+#urun_detay_tab1 div.urun_ozellikler table td.baslik {
+    background-color: #f1f1f1;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_1 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_7 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_13 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_15 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_18 tr.basliklar td {
+    color: #FFF;
+    background: #008000;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_2 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_4 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_5 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_8 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_9 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_10 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_11 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_14 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_16 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_17 th,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_19 th {
+    background-color: #fff;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_2 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_17 tr.basliklar td {
+    color: #fff;
+    background: #dfbd00;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_4 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_8 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_9 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_11 tr.basliklar td {
+    color: #fff;
+    background-color: #863D6F;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_5 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_10 tr.basliklar td {
+    color: #fff;
+    background: #fb6824;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_6 th{
+    background: #e31067;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_6 tr.basliklar td{
+    color: #fff;
+    background: #ff1e7b;
+}
+
+#banka_taksitler_20 th {
+    background: #ffffff;
+}
+#banka_taksitler_20 tr.basliklar td {
+    color: #fff;
+    background: #e60910;
+}
+
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_16 tr.basliklar td,
+#urun_detay_tab3 div.banka_taksit_secenkeleri #banka_taksitler_19 tr.basliklar td {
+    color: #FFF;
+    background: #ec1b2d;
+}
+
+#adres_bilgileri form table tr.liste_satir_2 {
+    background: #f5f5f5;
+}
+
+#adres_bilgileri form table tr.secili {
+    background: #fcf8e3;
+}
+
+#adres_bilgileri form table tr.liste_satir_2.secili {
+    background: #f5efd0;
+}
+
+#puanlarim form table.tablo_1 th,
+#ceklerim form table.tablo_1 th,
+#takip div.icerik table th,
+#bildirim_listesi form table th,
+#alisveris_listesi form table th,
+#fiyat_alarm_listesi form table th,
+#kiyaslama_listesi form table th,
+#stok_alarm_listesi form table th,
+#adres_bilgileri form table th {
+    border-color: #e2e6e8;
+}
+
+#alisveris_listesi form table,
+#fiyat_alarm_listesi form table,
+#kiyaslama_listesi form table,
+#stok_alarm_listesi form table,
+#puanlarim form table.tablo_1,
+#ceklerim form table.tablo_1,
+#takip div.icerik table {
+	border-top-color:#cf92e8;
+}
+
+#adres_bilgileri form table td {
+    border-color: #fff;
+}
+
+#adres_bilgileri div.fatura_adres_bos,
+#adres_bilgileri div.teslimat_adres_bos {
+    color: #e74c3c;
+}
+
+#uye_giris_kayit div.uye_giris #uye_giris_submit {
+    color: #FFF;
+    background-color: #cf92e8;
+}
+#uye_giris_kayit div.uye_giris #uye_giris_submit:hover {
+    background-color: #176ab4;
+}
+
+#uye_giris_kayit div.uye_giris div.sifremi_unuttum a {
+    color: #6d6d6d;
+}
+
+#uye_giris_kayit div.uye_kayit div.uye_kayit_buton a:before {
+    color: #FFF;
+    background: #cf92e8;
+}
+
+#uye_giris_kayit div.uye_kayit div.facebook_login_buton a:before ,
+#uye_giris_kayit div.uye_kayit div.google_login_buton a:before ,
+#uye_giris_kayit div.uye_kayit div.twitter_login_buton a:before {
+    color: #FFF;
+}
+
+#uye_giris_kayit div.uye_kayit div.facebook_login_buton a:before{
+	background: #3b5998;
+}
+#uye_giris_kayit div.uye_kayit div.google_login_buton a:before{
+	background: #CF4332;
+}
+#uye_giris_kayit div.uye_kayit div.twitter_login_buton a:before{
+	background: #55acee;
+}
+#uye_giris_kayit div.uye_kayit div.facebook_login_buton a:hover:before{
+	background:#334e86;
+}
+#uye_giris_kayit div.uye_kayit div.google_login_buton a:hover:before{
+	background:#AF3123;
+}
+#uye_giris_kayit div.uye_kayit div.twitter_login_buton a:hover:before{
+	background:#41A0E9;
+}
+
+#uye_giris_kayit div.uye_giris #uye_giris_submit:hover,
+#uye_giris_kayit div.uye_kayit div.uye_kayit_buton a:hover:before {
+    background: #be75dc;
+}
+
+#uye_kayit #uye_kayit_buton input:hover {
+    background-color: #be75dc;
+}
+
+input.adres_hata_mesaji,
+select.adres_hata_mesaji,
+textarea.adres_hata_mesaji,
+input.siparis_takibi_hata_mesaji,
+input.teklif_iste_hata_mesaji, 
+input.uye_kayit_hata_mesaji,
+input.uye_bilgileri_hata_mesaji,
+input.sifre_degistirme_hata_mesaji,
+select.uye_kayit_hata_mesaji,
+select.uye_bilgileri_hata_mesaji,
+select.sifre_degistirme_hata_mesaji,
+input.musteri_hizmetleri_iletisim_hata_mesaji,
+textarea.musteri_hizmetleri_iletisim_hata_mesaji {
+    border-color: rgba(255,0,0,0.15);
+    color: #e74c3c;
+    box-shadow: 0px 0px 3px 0px rgba(255, 0, 0, 0.11);
+    background-color: rgba(255, 0, 0, 0.04);
+}
+
+#bildirim_listesi form table td a {
+    background: url(../images/mail_open.png) no-repeat 5px 1px;
+}
+
+#bildirim_listesi form table tr.okunmadi td a {
+    background: url(../images/mail.png) no-repeat 5px 1px;
+}
+
+#stok_alarm_listesi form table td.urun_stokta {
+    color: #434950;
+}
+
+#stok_alarm_listesi form table td span {
+    color: #3f3f3f;
+}
+
+#puanlarim div.aktif_puan_yok {
+    color: #e74c3c;
+}
+
+#ceklerim form table.tablo_2 {
+    border-color: #c3c3c3;
+}
+
+#takip div.icerik div.aciklama a {
+    color: #cf92e8;
+}
+
+#takip div.icerik div.liste_bos {
+    color: #e74c3c;
+}
+
+#bildirim_listesi form table tr.liste_satir_2,
+#alisveris_listesi form table tr.liste_satir_2,
+#fiyat_alarm_listesi form table tr.liste_satir_2,
+#kiyaslama_listesi form table tr.liste_satir_2,
+#stok_alarm_listesi form table tr.liste_satir_2,
+#puanlarim form table.tablo_1 tr.liste_satir_2,
+#ceklerim form table.tablo_1 tr.liste_satir_2,
+#takip div.icerik table tr.liste_satir_2 {
+   
+}
+
+
+
+
+#bildirim_listesi div.liste_bos,
+#alisveris_listesi div.liste_bos,
+#fiyat_alarm_listesi div.liste_bos,
+#kiyaslama_listesi div.liste_bos,
+#stok_alarm_listesi div.liste_bos,
+#ceklerim div.liste_bos {
+    color: #e74c3c!important;
+}
+
+#puanlarim div.icerik div.aciklama a,
+#ceklerim div.icerik div.aciklama a {
+    color: #245269;
+}
+
+#puanlarim form table.tablo_1 td,
+#ceklerim form table.tablo_1 td,
+#puanlarim form table.tablo_2 td,
+#ceklerim form table.tablo_2 td {
+   
+}
+
+#PM_urun_detayi div.urun_detay_orta div.urun_fiyat .urun_kdvdahil_fiyati {
+	color:#cf92e8;
+}
+
+.indirimli_yeni .urun_fiyati{
+	color:#666!important;
+}
+
+#PM_urun_detayi div.urun_detay_orta div.sepete_ekle_adet_virt table td.miktar_hatali label{
+	color:#e74c3c;
+}
+.star-rating,
+.star-rating a:hover,
+.star-rating a:active,
+.star-rating a:focus,
+.star-rating .current-rating {
+    background-image: url(../images/star.png);
+}
+
+#ust_arama_kismi {
+  background:#d59eda;
+}
+
+#urun_arama_input {
+  background:transparent;
+  color:#fff;
+}
+#urun_arama_form{
+  background:transparent;
+  color:#eee;
+}
+.searchrow{
+	border-color:#fff;
+}
+
+input[type="text"]#urun_arama_input::-webkit-input-placeholder {
+  color: #fff;
+}
+.close{
+  color:#fff;
+}
+#toTop {
+    background: url(../images/sayfa_basi.png) top left no-repeat;
+}
+.uyelikarrow {
+    background: url(../images/uyelikarrow.png) right center no-repeat;
+}
+
+.staryorum .s_first{
+	background:url(../images/sfirstico.png) left center no-repeat;	
+}
+
+.staryorum .s_second{
+	background:url(../images/ssecondico.png) left center no-repeat;
+}

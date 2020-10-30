@@ -1,0 +1,1 @@
+!function(o,t){o.extend({lockfixed:function(t,f){f&&f.offset?f.offset.top=parseInt(f.offset.top,10):f.offset={top:0},(t=o(t))&&t.offset()&&o(window).on("load",function(){t.css({position:"sticky",top:f.offset.top})})}})}(jQuery);

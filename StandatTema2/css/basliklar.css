@@ -1,0 +1,32 @@
+#PM_musteri_hizmetleri h1.baslik,
+#siparis_takibi h1.baslik,
+#PM_yeni_urunler h1.baslik,
+#PM_indirimli_urunler h1.baslik,
+#PM_arama_urunleri h1.baslik,
+#sepet_detay h1.baslik,
+#siparislerim h1.baslik,
+#siparis_detayi h1.baslik,
+#pc_topla h1.baslik,
+#uye_kayit h1.baslik,
+#uye_bilgileri h1.baslik,
+#sifre_degistirme h1.baslik,
+#PM_haber_detayi div.haber_detay h1.baslik,
+#PM_haber_detayi div.diger_haberler p.baslik,
+#PM_link_detayi div.link_detay h1.baslik,
+#PM_link_detayi div.diger_linkler p.baslik,
+#PM_anket_sonuclari div.anket_sonuclari h1.baslik,
+#PM_anket_sonuclari div.diger_anketler p.baslik ,
+#bildirim_listesi h1.baslik,
+#alisveris_listesi h1.baslik,
+#fiyat_alarm_listesi h1.baslik,
+#kiyaslama_listesi h1.baslik,
+#stok_alarm_listesi h1.baslik,
+#puanlarim h1.baslik,
+#ceklerim h1.baslik,
+#takip h1.baslik,
+#adres_bilgileri h1.baslik {
+	margin-bottom: 20px;
+	font-size: 16px;
+	padding: 8px 12px;
+    border-width: 1px; 	border-style:solid;
+}

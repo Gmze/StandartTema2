@@ -1,0 +1,280 @@
+@import url(public/bootstrap.popover.css);
+
+#PM_orta div.urun {
+    text-align: center;
+    position: relative;
+    border: 1px solid #ebeef0;
+    box-sizing: border-box;
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#PM_orta div.urun > div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#PM_orta div.urun div.urun_ismi {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+
+#PM_orta div.urun div.urun_ismi a {
+    font-size:13px;
+}
+
+#PM_orta div.urun div.urun_resmi{
+	transition: all 0.20s ease-in-out;
+}
+
+#PM_orta div.urun div.urun_resmi a {
+    display: block;
+    width: 100%;
+}
+
+#PM_orta div.urun div.urun_resmi a img{
+    width: 100%;
+    height: auto;
+}
+#PM_orta div.urun.urunfixed div.urun_resmi a img{
+
+}
+
+#PM_orta div.urun div.urun_stok_yok {
+    font-size: 12px;
+    border-width: 1px;
+	border-style:solid;
+    padding: 6px 12px;
+    margin: 0px 20px;
+}
+
+#PM_orta div.urun div.indirimsiz_urun_fiyati {
+    font-size: 14px;
+    margin-left: 5px;
+    text-decoration: line-through;
+    display: inline-block;
+    padding: 2px 0;
+}
+
+#PM_orta div.urun div.indirimsiz_urun_kdvdahil_fiyati {
+    font-size: 14px;
+    text-decoration: line-through;
+    display: inline-block;
+    padding: 0;
+}
+
+#PM_orta div.urun div.urun_fiyati {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 0;
+}
+
+#PM_orta div.urun div.urun_kdvdahil_fiyati {
+    font-size: 16px;
+	font-weight:600;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0;
+}
+
+#PM_orta div.urun div.urun_fiyati_yok {
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+#PM_orta div.urun div.urun_butonlar {
+
+}
+
+#PM_orta div.urun:hover div.urun_butonlar {
+    visibility: visible;
+    bottom: 0;
+	opacity:1;
+}
+
+#PM_orta div.urun div.urun_butonlar a:before {
+    z-index: 99999;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 8px 15px;
+	border-radius: 2px;
+}
+
+#PM_orta div.urun div.urun_butonlar a.urun_sepete_ekle:before {
+    content: "Sepete Ekle";
+	transition: all 0.20s ease-in-out;	
+}
+
+
+#PM_orta div.urun div.urun_butonlar a.urun_hemen_al:before {
+    content: "Satýn Al";
+	transition: all 0.20s ease-in-out;	
+}
+
+
+
+#PM_orta div.urun div.urun_butonlar a.urun_incele:before {
+    content: "\f002";
+}
+
+
+#PM_orta div.urun div.butonveikonlar{
+    border-top: 1px solid transparent;
+    bottom: -50px;
+    min-height: 0;
+    white-space: nowrap;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    display: block;
+    width: 100%;
+	opacity:0;
+	transition: all 0.20s ease-in-out;
+	
+}
+
+#PM_orta div.urun:hover div.butonveikonlar {
+    visibility: visible;
+	opacity:1;
+	bottom:0;
+}
+#PM_orta div.urun:hover div.urun_resmi {
+	
+}
+#PM_orta div.urun.removehover:hover div.urun_resmi{
+	margin-top:inherit!important;
+}
+
+#PM_orta div.urun div.indirimli_urun {
+	position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    width: 45px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+	border-radius:2px;
+}
+
+#PM_orta div.urun div.urun_ikonlar {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#PM_orta div.urun:hover div.urun_ikonlar {
+    visibility: visible;
+    left: -1px;
+	opacity:1;
+}
+
+#PM_orta div.urun img.yeni_urun_ikon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+}
+
+#PM_orta div.urun div.urun_ikonlar i {
+    width: 24px;
+    height: 25px;
+	line-height:24px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+	transition: all 0.20s ease-in-out;	
+	margin:5px 3px;
+	margin-bottom:10px;
+}
+
+
+#PM_orta div.urun div.urun_ikonlar a {
+	display:inline-block;
+}
+
+#PM_orta div.urun div.urun_ikonlar i:hover {
+    width: 130px;
+	white-space:nowrap;
+}
+
+
+#PM_orta div.urun div.urun_ikonlar .ayni_gun_kargo_urun_ikon_a i:after {
+    content: 'Ayný gün kargo';
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#PM_orta div.urun div.urun_ikonlar .kampanyali_urun_ikon_a i:after {
+    content: 'Kampanyalý Ürün';
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#PM_orta div.urun div.urun_ikonlar .kitik_stok_urun_ikon_a i:after {
+    content: 'Kritik Stok';
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#PM_orta div.urun div.urun_ikonlar .kargo_bedavali_urun_ikon_a i:after {
+    content: 'Ücretsiz Kargo';
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#PM_orta div.urun div.urun_ikonlar .ayni_gun_kargo_urun_ikon_a i:before{
+    margin: 0 6px;
+	font-size:13px;	
+}
+#PM_orta div.urun div.urun_ikonlar .kitik_stok_urun_ikon_a i:before{
+	font-size:13px;
+	margin: 0px 6px;
+}
+#PM_orta div.urun div.urun_ikonlar .kargo_bedavali_urun_ikon_a i:before {
+	font-size:13px;	
+	margin: 0px 6px;
+}
+
+
+
+
+
+.sag_sol_yok #PM_anasayfa_urunler div.urunler {
+    width: 1200px;
+}
+
+.sag_sol_yok #PM_anasayfa_urunler div.urunler div.icerik {
+    width: 1215px;
+}
+
+.sag_sol_yok #slider li,
+.sag_sol_yok #slider2 li {
+    width: 1200px!important;
+    height: 500px!important;
+}
+
+#PM_orta div.urun div.tanitim_yazisi,
+#PM_orta div.urun div.urun_butonlar img,
+#PM_orta div.urun div.urun_butonlar a.urun_incele,
+#PM_orta div.urun div.urun_ikonlar img,
+#PM_orta div.urun div.urun_ikonlar .yeni_urun_ikon_a {
+    display: none;
+}
+
+
+
+.urun_butonlar.block_button a{
+	display:block;
+}

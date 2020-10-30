@@ -1,0 +1,515 @@
+@import url('tek_urun.css');
+@import url('public/slidingtabs-horizontal.css');
+
+#PM_editorun_secimi div.urun:hover div.urun_resmi,
+#PM_begenilen_urunler div.urun:hover div.urun_resmi,
+#PM_en_cok_izlenen_urun div.urun:hover div.urun_resmi {
+	margin-top:inherit!important;
+}
+
+#PM_editorun_secimi,
+#PM_markalar,
+#PM_haberler,
+#PM_anket,
+#PM_linkler,
+#PM_doviz,
+.PM_cerceveli_modul,
+.PM_cercevesiz_modul,
+#PM_editorun_secimi,
+#PM_begenilen_urunler,
+#PM_en_cok_izlenen_urun{
+    margin-bottom: 30px;
+}
+
+#PM_editorun_secimi p.baslik,
+#PM_markalar p.baslik,
+#PM_haberler p.baslik,
+#PM_anket p.baslik,
+#PM_linkler p.baslik,
+#PM_doviz p.baslik,
+.PM_cerceveli_modul p.baslik,
+#PM_begenilen_urunler p.baslik,
+#PM_en_cok_izlenen_urun p.baslik {
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom: none;
+    font-size: 14px;
+    text-align: left;
+	border-width:1px;
+	border-style:solid;
+	border-bottom:none;
+	font-weight:600;
+
+}
+
+#PM_editorun_secimi p.baslik i,
+#PM_kategoriler p.baslik i,
+#PM_markalar p.baslik i,
+#PM_haberler p.baslik i,
+#PM_anket p.baslik i,
+#PM_linkler p.baslik i,
+#PM_doviz p.baslik i,
+.PM_cerceveli_modul p.baslik i,
+#PM_begenilen_urunler p.baslik i,
+#PM_en_cok_izlenen_urun p.baslik i {
+
+}
+
+#PM_editorun_secimi div.icerik,
+#PM_kategoriler div.icerik,
+#PM_markalar div.icerik,
+#PM_haberler div.icerik,
+#PM_anket div.icerik,
+#PM_linkler div.icerik,
+#PM_doviz div.icerik,
+.PM_cerceveli_modul div.icerik,
+#PM_begenilen_urunler div.icerik,
+#PM_en_cok_izlenen_urun div.icerik {
+	border-width:1px;
+	border-style:solid;
+	font-size:13px;
+}
+
+#PM_editorun_secimi div.icerik li,
+#PM_kategoriler div.icerik li,
+#PM_markalar div.icerik li,
+#PM_haberler div.icerik li,
+#PM_anket div.icerik li,
+#PM_linkler div.icerik li,
+#PM_doviz div.icerik li,
+.PM_cerceveli_modul div.icerik li,
+#PM_begenilen_urunler div.icerik li,
+#PM_en_cok_izlenen_urun div.icerik li {
+    border-bottom-width: 1px;
+}
+
+/*markalar modülü tasarýmý */
+
+#PM_markalar div.icerik div,
+#PM_markalar #markalar_form {
+    padding: 10px 15px;
+}
+
+#PM_markalar div.icerik select {
+    width:100%;
+}
+
+/*haberler modülü tasarýmý */
+#PM_doviz div.icerik li ,
+#PM_linkler div.icerik a ,
+#PM_haberler div.icerik a {
+    text-decoration: none;
+    border-bottom-width: 1px;
+	border-style:solid;
+    display: block;
+    padding: 10px 15px;
+}
+
+#PM_doviz div.icerik .PB_GBP,
+#PM_linkler div.icerik li:last-child a,
+#PM_haberler div.icerik li:last-child a {
+    border-bottom: none;
+}
+
+/*anket modülü tasarýmý */
+
+#PM_anket div.icerik div.anket_soru {
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+#PM_anket div.icerik div.anket_cevaplar {
+    padding: 0 15px;
+}
+
+#PM_anket div.icerik div.anket_cevap {
+    padding: 5px 0;
+}
+
+#PM_anket div.icerik div.anket_cevap input {
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-top: -3px!important;
+	visibility:hidden;
+}
+
+#PM_anket div.icerik div.anket_butonlar {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#PM_anket div.icerik div.anket_butonlar input {
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#PM_anket div.icerik div.anket_butonlar input:last-child {
+    margin-right: 0px;
+}
+
+#PM_anket div.icerik div.anket_butonlar input:not(:disabled):hover {
+    cursor: pointer;
+}
+
+/*doviz modülü tasarýmý */
+
+#PM_doviz div.icerik li .fa{
+	margin-right:10px;
+}
+
+/*en çok izlenen ürün modülü tasarýmý */
+
+#PM_editorun_secimi,
+#PM_begenilen_urunler,
+#PM_en_cok_izlenen_urun {
+    position: relative;
+}
+
+#PM_editorun_secimi div.icerik,
+#PM_begenilen_urunler div.icerik,
+#PM_en_cok_izlenen_urun div.icerik {
+    min-height: 250px;
+    padding: 0px;
+    border-top: none;
+}
+
+#PM_editorun_secimi div.icerik .urun,
+#PM_begenilen_urunler div.icerik .urun,
+#PM_en_cok_izlenen_urun div.icerik .urun {
+    padding: 10px;
+    position: relative;
+    margin: 0px;
+    border: none;
+    margin-right: 2px;
+}
+
+#PM_editorun_secimi div.icerik .urun div.urun_ikonlar img.yeni_urun_ikon,
+#PM_begenilen_urunler div.icerik .urun div.urun_ikonlar img.yeni_urun_ikon,
+#PM_en_cok_izlenen_urun div.icerik .urun div.urun_ikonlar img.yeni_urun_ikon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+#PM_editorun_secimi div.icerik .urun:hover,
+#PM_begenilen_urunler div.icerik .urun:hover,
+#PM_en_cok_izlenen_urun div.icerik .urun:hover {
+    box-shadow: none;
+}
+
+#PM_en_cok_izlenen_urun div.icerik  .jcarousel-clip-horizontal,
+#PM_editorun_secimi div.icerik  .jcarousel-clip-horizontal,
+#PM_begenilen_urunler div.icerik  .jcarousel-clip-horizontal {
+    width: 220px;
+}
+
+#PM_editorun_secimi div.icerik  .jcarousel-item ,
+#PM_en_cok_izlenen_urun div.icerik  .jcarousel-item ,
+#PM_begenilen_urunler div.icerik  .jcarousel-item {
+    width: 220px;
+}
+
+#PM_editorun_secimi div.icerik  div.editorun_secimi_sol_sag_butonlar,
+#PM_en_cok_izlenen_urun div.icerik  div.en_cok_izlenen_urun_sol_sag_butonlar,
+#PM_begenilen_urunler div.icerik  div.begenilen_urunler_sol_sag_butonlar {
+    display: block;
+    transition: all 0.20s ease-out;
+    width: 218px;
+}
+
+#PM_editorun_secimi div.icerik a.sol_buton,
+#PM_en_cok_izlenen_urun div.icerik a.sol_buton,
+#PM_begenilen_urunler div.icerik a.sol_buton {
+    display: block;
+    float: left;
+    padding: 18px 12px;
+	width:85px;
+	border-right-width:1px;
+	border-style:solid;
+}
+
+#PM_editorun_secimi div.icerik a.sag_buton,
+#PM_en_cok_izlenen_urun div.icerik a.sag_buton,
+#PM_begenilen_urunler div.icerik a.sag_buton {
+    display: block;
+    float: right;
+    padding: 18px 12px;
+	width:84px;	
+}
+
+.PM_cerceveli_modul div.icerik {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.PM_cerceveli_modul div.icerik .modul_buyuk_urun {
+    margin: 0px 0px 10px 0!important;
+}
+.PM_cerceveli_modul div.icerik .modul_buyuk_urun:hover div.urun_resmi {
+	margin-top:inherit!important;
+}
+
+.PM_cerceveli_modul div.icerik .modul_buyuk_urun:last-child {
+    margin-bottom: 0px!important;
+}
+
+.PM_cerceveli_modul div.icerik .modul_kucuk_urun {
+    margin: 0px 0px 10px 0!important;
+}
+
+.PM_cerceveli_modul div.icerik .modul_kucuk_urun:last-child {
+    margin-bottom: 0px!important;
+}
+
+.PM_cercevesiz_modul {
+    width: 220px;
+    overflow: hidden;
+}
+
+.PM_cercevesiz_modul div.urun {
+	margin:0px!important;
+}
+
+#PM_anasayfa_urunler {
+    padding: 0;
+    clear: both;
+}
+
+#PM_anasayfa_urunler div.urunler {
+    padding: 0px;
+    margin-bottom:30px;
+    width: 730px;
+    overflow: hidden;
+}
+
+#PM_anasayfa_urunler div.urunler p.baslik {
+    padding: 10px 0px 10px 15px;
+    font-size: 14px;
+    width: 683px;
+	border-width:1px;
+	border-style:solid;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+
+#PM_anasayfa_urunler div.urunler div.icerik {
+    width: 721px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#PM_xml_banner {
+    margin-bottom: 30px;
+	width:100%;
+}
+
+#anasayfa_yazisi {
+    clear: both;
+    display: block;
+	width:1200px;
+	margin: 0 auto;
+	margin-bottom:30px;
+}
+
+
+#slider{
+
+}
+
+#slider,
+#slider li {
+    width: 1490px!important;
+    height: 500px!important;
+}
+
+#cu3er-container {
+    width: 100%!important;
+}
+
+#PM_xml_banner #controls {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 0;
+    padding: 0;
+    width: 1180px;
+    padding: 10px;
+    text-align: center;
+}
+
+#PM_xml_banner #controls li {
+    margin: -3px 5px 0 0;
+    padding: 0;
+    list-style: none;
+    float: none;
+    display: inline-block;
+}
+
+#PM_xml_banner #controls li a {
+    line-height: 20px;
+    width: 25px;
+    height: 10px;
+    font-weight: bold;
+	border:none;
+    color: #444;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 20px;
+	text-indent:-3000px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16)!important;
+}
+
+#PM_xml_banner #controls li a:hover {
+	border:none;
+}
+
+#PM_xml_banner #controls li.current a {
+    font: none!important;
+	width:30px;
+}
+
+.reform-thumbnailslider ul.small-container li.active-small {
+    border:none!important;
+    opacity: 1;
+}
+
+.reform-thumbnailslider ul.big-container li {
+    border:none!important;
+	margin:0px!important;
+	border-radius:0px!important;
+}
+
+.reform-thumbnailslider ul.big-container li a img{
+	border-radius:0px!important;
+}
+
+.reform-thumbnailslider ul.small-container li {
+	border:none!important;
+    margin: 5px 5px 5px 0px!important;
+	border-radius:0px!important;
+}
+
+/*-----------------------------------------------*/
+
+.sag_yok #anasayfa_yazisi,
+.sol_yok #anasayfa_yazisi{
+    width: 928px!important;
+	overflow:hidden;
+}
+
+.sag_yok div.urunler p.baslik,
+.sol_yok div.urunler p.baslik{
+    width: 933px!important;
+}
+
+.sag_sol_yok div.urunler p.baslik{
+    width: 1183px!important;
+}
+
+.sag_yok #kayan_yazi_alani{
+	width: 928px!important;
+}
+
+.sag_sol_yok #anasayfa_yazisi{
+    width: 1178px!important;
+	overflow:hidden;
+}
+
+.sag_sol_yok #anasayfa_yazisi{
+    width: 1178px!important;
+	overflow:hidden;
+}
+
+.sag_yok div.st_horizontal div.st_tabs_container,
+.sol_yok div.st_horizontal div.st_tabs_container,
+.sag_yok #PM_anasayfa_urunler div.urunler,
+.sol_yok #PM_anasayfa_urunler div.urunler {
+    width: 950px!important;
+}
+
+
+
+.sag_yok #PM_anasayfa_urunler div.urunler div.icerik,
+.sol_yok #PM_anasayfa_urunler div.urunler div.icerik {
+    width: 970px;
+}
+
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+.sag_sol_yok div.st_horizontal div.st_tabs_container,
+.sag_sol_yok div.st_horizontal div.st_tabs_container,
+.sag_sol_yok #PM_anasayfa_urunler div.urunler,
+.sag_sol_yok #PM_anasayfa_urunler div.urunler {
+    width: 1200px!important;
+}
+
+.sag_sol_yok #PM_anasayfa_urunler div.urunler div.icerik,
+.sag_sol_yok #PM_anasayfa_urunler div.urunler div.icerik {
+    width: 1220px;
+}
+
+
+#PM_doviz div.icerik li.PB_CHF,
+.PM_cerceveli_modul div.icerik .modul_buyuk_urun .urun_butonlar img,
+.PM_cerceveli_modul div.icerik .modul_kucuk_urun .urun_butonlar img,
+.PM_cercevesiz_modul .modul_kucuk_urun,
+.PM_cercevesiz_modul .modul_buyuk_urun {
+    display: none;
+}
+
+
+#PM_anasayfa_urunler div.urunler .product_group{
+    display: flex;
+    flex-wrap: wrap;
+}
+#PM_anasayfa_urunler div.urunler .product_group .PM_clear{
+    display: none;
+}
+#PM_anasayfa_urunler div.urunler .product_group > div{
+    flex: 0 0 calc(100% / 3);
+    padding: 0;
+    margin-bottom: 20px;
+}
+#PM_anasayfa_urunler .product_col_4 .product_group > div{
+    flex: 0 0 calc(100% / 4)!important;
+}
+#PM_anasayfa_urunler div.urunler .product_group > div > .urun{
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+
+#PM_anasayfa_urunler div.urunler .product_group > div > .urun .bottom_sec{
+    display: block;
+}
+
+
+#PM_anasayfa_urunler .product_col_4 .product_group > div > .urun a{
+    height: 237px!important;
+}
+#PM_anasayfa_urunler div.urunler .product_group > div > .urun a{
+    height: 327px;
+}
+
+.sag_sol_yok #PM_anasayfa_urunler .product_col_4 .product_group > div > .urun a{
+    height: 424px!important;
+}
+.sag_sol_yok #PM_anasayfa_urunler div.urunler .product_group > div > .urun a{
+    height: 576px;
+}
+
+.sol_yok #PM_anasayfa_urunler .product_col_4 .product_group > div > .urun a,
+.sag_yok #PM_anasayfa_urunler .product_col_4 .product_group > div > .urun a{
+    height: 330px!important;
+}
+
+.sol_yok #PM_anasayfa_urunler div.urunler .product_group > div > .urun a,
+.sag_yok #PM_anasayfa_urunler div.urunler .product_group > div > .urun a{
+    height: 450px;
+}
