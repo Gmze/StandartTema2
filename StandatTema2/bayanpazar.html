@@ -29,22 +29,33 @@
 	<div id="PM_main">
 		<div id="PM_ust">
 			<a href="#" id="toTop"></a>
-			
+			<div class="row1">
+				<div id="ust_ana_menuler_yerlesimi">
+					<ul id="ust_ana_menu" class="ust_ana_menu">
+						<li><a href="/default.asp" target="_self" title="Anasayfa"><span>Anasayfa</span></a></li>
+						<li><a href="/siparis-takibi" target="_self" title="Sipariþ Takibi"><span>Sipariþ Takibi</span></a></li>
+						<li><a href="/musteri-hizmetleri" target="_self" title="Müþteri Hizmetleri"><span>Müþteri Hizmetleri</span></a></li>
+						<li><a href="/iletisim" target="_self" title="Ýletiþim"><span>Ýletiþim</span></a></li>
+					</ul>
+				</div>	
+				<div id="ust_uyelik_alani">
+					<div style="" class="uyelikisim1"><i class="fa fa-user"></i><span>Kullanýcý Paneli</span></div>
+					<div class="uyelik_butonlar">
+						<div class="uyelikarrow"></div>					
+						<ul id="ust_uye_giris_ul">
+							<li><a class="link_1" href="/uye-girisi"><i class="fa fa-user"></i><span>Üye Giriþi</span></a></li>
+							<li><a class="link_2" href="/uye-ol"><i class="fa fa-user"></i><span>Üye Ol</span></a></li>
+							<li class="facebook_login_button"><a href="//social.platinmarket.com/facebook/login?params=islem%3Dsocial%5Flogin&token=ee75cda9f390adedaab4b6da05df3df58a9b901f3f65e1fff11208f0780799d2"><b>facebook</b> ile baðlan</a></li> 			
+						</ul>
+					</div>
+				</div>
+			</div>
 			<div class="row2">
 				<div id="logo_ve_uyelik">
 					<div class="logo">
 						<a href="/?ref=logo" title="bayanpazar"><img src="img/platinmarket.png" alt="bayanpazar" /></a>
 					</div>
-					<div class="menu_uyelik">
-						<div id="ust_ana_menuler_yerlesimi"><ul id="ust_ana_menu" class="ust_ana_menu"><li>
-							<a href="/default.asp" target="_self" title="Anasayfa"><span>Anasayfa</span></a></li>
-							<li>
-							<a href="/siparis-takibi" target="_self" title="Sipariþ Takibi"><span>Sipariþ Takibi</span></a></li>
-							<li>
-							<a href="/musteri-hizmetleri" target="_self" title="Müþteri Hizmetleri"><span>Müþteri Hizmetleri</span></a></li>
-							<li>
-							<a href="/iletisim" target="_self" title="Ýletiþim"><span>Ýletiþim</span></a></li>
-							</ul></div>
+					<div class="menu_uyelik">						
 						<!--<i class="la la-search aramahide"></i>	-->	
 						<div id="ust_arama_kismi">
 							<form method="get" action="/arama" name="urun_arama_form" id="urun_arama_form" >
@@ -53,7 +64,7 @@
 								<input type="hidden" name="tip" value="1" />
 								<input type="submit" name="word" value="Kategoriler" placeholder="Kategoriler" />
 								<input id="urun_arama_input"  type="text" name="word" value="" placeholder="Ürün arayýn..." />
-								<input id="urun_arama_submit" type="submit" name="submit" value="" hidefocus="true" />
+								<i class="fa fa-search" id="urun_arama_submit"></i>
 								
 							</form>
 						</div>

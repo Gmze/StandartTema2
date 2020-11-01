@@ -123,6 +123,11 @@
 .row1 {
     border-bottom-width: 1px;
 	border-style:solid;
+	background: #efefef;
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    padding: 8px 55px;
 }
 
 .row2 {
@@ -179,8 +184,7 @@
     text-align: left;
     position: relative;
     cursor: pointer;
-	padding:32px 10px;
-	margin-right: 30px;
+
 }
 
 .uyelikarrow {
@@ -195,9 +199,16 @@
 .uyelikisim2{
 	position:relative;
 	font-weight:200;
-	font-size: 20px;
+	display:flex;
+	align-items: center;
+    justify-content: center;
 }
-
+.uyelikisim1 span{
+	padding-left:4px;
+}
+.uyelikisim1 i {
+    font-size: 19px;
+}
 .uyelikisim1 .la-user{
 	font-size:27px;
 }
@@ -365,7 +376,7 @@ h2.kullanicisi{
 }
 
 #urun_arama_input {
-    width: 600px;
+    width: 550px;
     float: left;
     background: #fff;
     color:#444!important;
@@ -378,13 +389,14 @@ h2.kullanicisi{
 
 #urun_arama_submit {
 	cursor: pointer;
-    padding: 3px 3px;
+    font-size: 22px;
+    padding: 8px 8px;
+    color: #cf92e8;
     background-repeat: no-repeat;
     background-position: center;
     border-left: none;
-    height: 20px;
-    border-radius: 20px;
-    margin-top: 11px;
+    height: 30px;
+
 }
 
 #urun_arama_select {
@@ -419,7 +431,7 @@ h2.kullanicisi{
 .sepet_link span {
 	position: absolute;
     left: 73px;
-    top: 37px;
+    top: 5px;
     border-radius: 20px;
     width: 18px;
     height: 18px;
@@ -447,15 +459,16 @@ h2.kullanicisi{
 #ust_sepet_kismi_container {
     text-align: right;
 	position:relative;
+	background: #cf92e8;
 }
-
+#ust_sepet_kismi p {
+	color:#ffffff;
+}
 .mini_sepetim_container{
     padding: 21px 0px;
 }
 
 #ust_sepet_kismi {
-	margin-top:31px;
-	display:flex;
 	display: flex;
     border: 1px solid #eee;
 }
@@ -885,7 +898,7 @@ h2.kullanicisi{
 	width: 600px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 	
 }

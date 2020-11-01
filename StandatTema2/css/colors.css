@@ -123,8 +123,8 @@ div.siparis_sayfasi_icerik_sol div.sonraki_adim_div #sonraki_adim:hover,
 	background-color:#be75dc;
 }
 
-#urun_arama_submit:hover{
-    background-color: #b97cd2;	
+#urun_arama_submit:hover {
+    color: #8b47a7;
 }
 
 ul.urun_detay_tablar_ul li a:hover, 
