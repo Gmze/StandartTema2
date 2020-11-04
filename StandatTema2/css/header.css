@@ -127,7 +127,14 @@
     display: flex;
 	justify-content: space-between;
     align-items: center;
-    padding: 8px 55px;
+    padding: 8px 0px;
+}
+.row1 .row1_center {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .row2 {
@@ -172,13 +179,15 @@
 #ust_ana_menu li a {
     text-decoration: none;
     display: block;
-    padding: 0px 15px;
+    padding: 0px 8px 0px 0px;
 	font-weight:400;
 	font-size:13px;
 }
-
-
-
+#ust_ana_menu li a:after {
+    content: "/";
+    padding-left: 8px;
+    font-weight: 600;
+}
 
 #ust_uyelik_alani {
     text-align: left;
@@ -205,6 +214,8 @@
 }
 .uyelikisim1 span{
 	padding-left:4px;
+	font-size: 13px;
+    font-weight: 400;
 }
 .uyelikisim1 i {
     font-size: 19px;
@@ -376,7 +387,7 @@ h2.kullanicisi{
 }
 
 #urun_arama_input {
-    width: 550px;
+    width: 500px;
     float: left;
     background: #fff;
     color:#444!important;
@@ -414,33 +425,48 @@ h2.kullanicisi{
 }
 
 .sepet_link {
-    font-size: 14px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
     text-decoration: none;
-	padding:13px 0px;
-	margin-right: 45px;
-    margin-left: 30px;
+    padding: 6px 0px 6px 20px;
 }
 .sepet_link label{
-    font-size: 14px;
+    font-size: 13px;
     line-height: 18px;
-    margin-left: 10px;
+	padding-right: 14px;
     text-align: left;
 	cursor:pointer;
+}
+.sec {
+    display: flex;
+    align-items: center;
+    color: var(--text1);
+    font-weight: 700;
+}
+.sepet_link >i {
+    background: #cf92e8;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgba(43, 49, 183, 0.3);
+    font-size: 26px;
+    padding: 6px;
 }
 
 .sepet_link span {
 	position: absolute;
-    left: 73px;
-    top: 5px;
-    border-radius: 20px;
+    left: 52px;
+    top: 24px;
     width: 18px;
     height: 18px;
     line-height: 20px;
     text-align: center;
-    font-size: 10px;
-    color: #fff;
-    font-weight: 600;
-    border: 2px solid;
+    font-size: 14px;
+    color: #434950;
+    font-weight: 500;
+;
 }
 
 .sepet_link:before {
@@ -459,7 +485,8 @@ h2.kullanicisi{
 #ust_sepet_kismi_container {
     text-align: right;
 	position:relative;
-	background: #cf92e8;
+	background: #efefef;
+    width: 190px;
 }
 #ust_sepet_kismi p {
 	color:#ffffff;
@@ -592,9 +619,6 @@ h2.kullanicisi{
     display: table-cell;
     width: 1200px;
     margin: 0;
-	display: flex;
-    text-align: center;
-    justify-content: center;
 }
 
 #ust_ek_menu_2:after {
