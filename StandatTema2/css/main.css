@@ -239,7 +239,7 @@ em {
 }
 
 #sistem_mesaji p.baslik a:before {
-    content: "×";
+    content: "ï¿½";
     line-height: 1;
     margin-right: 5px;
 }
@@ -265,11 +265,19 @@ em {
 	margin:0 auto;
 }
 
-
+.alt_kivrim {
+    border-color: #cf92e8;
+    background-color: #f3f4f5;
+    width: 1423px;
+    padding-top: 130px;
+    border-radius: 100% 100% 0 0 / 100% 100% 0 0;
+    transform: scaleX(1.3);
+    z-index: 1;
+}
 #PM_alt {
     clear: both;
-    padding: 50px;
-	border-top:2px solid;
+    margin-top: -75px;
+
 }
 
 #PM_alt div.site_telif {
@@ -277,6 +285,7 @@ em {
 	width:1200px;
 	margin:0 auto;
 	overflow:hidden;
+	transform: scaleX(1);
 }
 
 #PM_alt div.site_telif a {

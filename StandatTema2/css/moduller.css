@@ -83,7 +83,7 @@
     border-bottom-width: 1px;
 }
 
-/*markalar modülü tasarýmý */
+/*markalar modï¿½lï¿½ tasarï¿½mï¿½ */
 
 #PM_markalar div.icerik div,
 #PM_markalar #markalar_form {
@@ -94,7 +94,7 @@
     width:100%;
 }
 
-/*haberler modülü tasarýmý */
+/*haberler modï¿½lï¿½ tasarï¿½mï¿½ */
 #PM_doviz div.icerik li ,
 #PM_linkler div.icerik a ,
 #PM_haberler div.icerik a {
@@ -111,7 +111,7 @@
     border-bottom: none;
 }
 
-/*anket modülü tasarýmý */
+/*anket modï¿½lï¿½ tasarï¿½mï¿½ */
 
 #PM_anket div.icerik div.anket_soru {
     font-weight: 600;
@@ -152,13 +152,13 @@
     cursor: pointer;
 }
 
-/*doviz modülü tasarýmý */
+/*doviz modï¿½lï¿½ tasarï¿½mï¿½ */
 
 #PM_doviz div.icerik li .fa{
 	margin-right:10px;
 }
 
-/*en çok izlenen ürün modülü tasarýmý */
+/*en ï¿½ok izlenen ï¿½rï¿½n modï¿½lï¿½ tasarï¿½mï¿½ */
 
 #PM_editorun_secimi,
 #PM_begenilen_urunler,
@@ -286,12 +286,11 @@
 
 #PM_anasayfa_urunler div.urunler p.baslik {
     padding: 10px 0px 10px 15px;
-    font-size: 14px;
+    font-size: 18px;
     width: 683px;
-	border-width:1px;
-	border-style:solid;
     font-weight:600;
     margin-bottom: 20px;
+    text-align:center;
 }
 
 #PM_anasayfa_urunler div.urunler div.icerik {
@@ -301,7 +300,7 @@
 }
 
 #PM_xml_banner {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 	width:100%;
 }
 
@@ -473,7 +472,7 @@
     display: none;
 }
 #PM_anasayfa_urunler div.urunler .product_group > div{
-    flex: 0 0 calc(100% / 3);
+    flex: 0 0 calc(100% / 4);
     padding: 0;
     margin-bottom: 20px;
 }

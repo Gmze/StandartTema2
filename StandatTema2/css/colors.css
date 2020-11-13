@@ -61,9 +61,12 @@ a:hover {
 
 
 /*-----------------------------------------  yeşil renk ve hover'ı  -----------------------------------*/
-.sepet_link:hover,
+.sepet_link label:hover,
 .la-search:hover{
-	color:#cf92e8;	
+	color:#434950!important;
+}
+.sec:hover, .sec span:hover {
+    color: #cf92e8;
 }
 .siparisi_tamamla a,
 .puan_butonlar input,
@@ -124,7 +127,7 @@ div.siparis_sayfasi_icerik_sol div.sonraki_adim_div #sonraki_adim:hover,
 }
 
 #urun_arama_submit:hover {
-    color: #8b47a7;
+    background: #c182db;
 }
 
 ul.urun_detay_tablar_ul li a:hover, 
@@ -390,7 +393,9 @@ div.papara_odeme_aciklama,
 .sepet_link span {
 	border-color:#fff;
 }
-
+.sepet_link >i:hover {
+    background: #c182db;
+}
 .ac_results ul {
     border-color: #ecd4ef;
 }
@@ -413,7 +418,7 @@ div.papara_odeme_aciklama,
 	box-shadow: 0px 5px 20px 0px #ead9e94d;
 }
 .infoarea {
-    background: url(https://www.bayanpazar.com/skin/1048-1/images/infoarea.png) center no-repeat;
+    background: url(https://s.eticaretbox.com/3371/dosyalar/images/infoarea.png) center no-repeat;
 }
 
 .bannerline{
@@ -570,7 +575,6 @@ div.siparis_sayfasi_icerik_sol div.sonraki_adim_div,
 #uye_kayit #uye_kayit_form1,
 #sifre_degistirme #sifre_degistirme_buton,
 #uye_bilgileri #uye_bilgileri_buton,
-#PM_anasayfa_urunler div.urunler p.baslik,
 #PM_musteri_hizmetleri #PM_musteri_hizmetleri_arama_sonuc p.baslik,
 #PM_musteri_hizmetleri #PM_musteri_hizmetleri_icerik p.baslik,
 #PM_musteri_hizmetleri #PM_musteri_hizmetleri_iletisim p.baslik,
@@ -847,7 +851,7 @@ textarea:focus {
 
 #PM_alt {
     border-color: #cf92e8;
-    background-color: #f9f9f9;
+    background-color: #f3f4f5;
 	
 }
 

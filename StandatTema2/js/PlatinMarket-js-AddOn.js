@@ -44,7 +44,7 @@ if (!cartCount == "0"){
 			}
 			$("#ust_sepet_kismi div.mini_sepetim").load("/skin/_shared/asp/" + cart_asp_page ,function(){
 				
-				$(".sepete_git_buton").html('<a class="sepetime_a"href="/alisveris-sepetim" title="Sepete Git">Sepete Git</a><a class="satinal_a" href="/uye-teslimat-ve-fatura-bilgileri?sid='+ PM_sid +'" title="Satýn Al">Satýn Al</a>');
+				$(".sepete_git_buton").html('<a class="sepetime_a"href="/alisveris-sepetim" title="Sepete Git">Sepete Git</a><a class="satinal_a" href="/uye-teslimat-ve-fatura-bilgileri?sid='+ PM_sid +'" title="Satï¿½n Al">Satï¿½n Al</a>');
 				var mini_sepet_urun_adeti_scroll = 3;
 				if($("#ust_sepet_kismi .mini_sepetim .sepet_dolu .sepet_urunler .urun").length > mini_sepet_urun_adeti_scroll) {
 					var mini_sepet_urun_adeti_yukseklik = 0;
@@ -290,7 +290,7 @@ PM.OnPage(["urunler", "arama_sonuclari", "indirimli_urunler", "yeni_urunler" ,"t
 	$(".urunler_main .yeni_urunler .icerik > div").slice(3).remove();
 	$(".urunler_main .indirimli_urunler .icerik > div").slice(3).remove();
 	
-	$(".urunler_ust").prepend('<div class="siralamabutonlar"><a href="javascript:void(0)" class="ismegore">Ýsme Göre Sýrala</a><a href="javascript:void(0)" class="dusukfiyat">En Düþük Fiyat</a><a href="javascript:void(0)" class="yuksekfiyat">En Yüksek Fiyat</a><a href="javascript:void(0)" class="encoksatan">En Çok Satan Ürünler</a><a href="javascript:void(0)" class="enyeni">En Yeni Ürünler</a></div>')
+	$(".urunler_ust").prepend('<div class="siralamabutonlar"><a href="javascript:void(0)" class="ismegore">ï¿½sme Gï¿½re Sï¿½rala</a><a href="javascript:void(0)" class="dusukfiyat">En Dï¿½ï¿½ï¿½k Fiyat</a><a href="javascript:void(0)" class="yuksekfiyat">En Yï¿½ksek Fiyat</a><a href="javascript:void(0)" class="encoksatan">En ï¿½ok Satan ï¿½rï¿½nler</a><a href="javascript:void(0)" class="enyeni">En Yeni ï¿½rï¿½nler</a></div>')
 	
 	$( ".siralamabutonlar .ismegore" ).on('click', function() {
 		$("#urun_siralama_secenekleri").val("0").triggerHandler("change");
@@ -386,7 +386,7 @@ PM.OnPage("urun_detay",function(){
 	});
 	
 	$(".urun_detay_orta .urun_fiyat + .urun_ikonlar img").each(function(){
-		if ($(this).attr("alt") == "Ayný Gün Kargo") {
+		if ($(this).attr("alt") == "Aynï¿½ Gï¿½n Kargo") {
 			$(this).addClass("aynigunkargo");
 		}else if($(this).attr("alt") == "Kargo Bedava" ) {
 			$(this).addClass("kargobedava");
@@ -407,10 +407,10 @@ PM.OnPage("urun_detay",function(){
 
 	$('#PM_urun_detayi div.urun_detay_orta div.urun_fiyat').prepend('<div class="indirimliler"><div class="indirimli_hizala"></div></div><div class="indirimsizler"><div class="indirimsiz_hizala"></div></div><div class="indirimliler_gelsin"></div>');
 	if ($('.urun_havale_fiyati').length > 0) {
-		$('.indirimliler_gelsin').append('<div>Havale fiyatý : <div class="havale_hizala"></div></div>');
+		$('.indirimliler_gelsin').append('<div>Havale fiyatï¿½ : <div class="havale_hizala"></div></div>');
 	}
 	if ($('.urun_tekcekim_fiyati').length > 0) {
-		$('.indirimliler_gelsin').append('<div>Kredi kartý tek çekim : <div class="tekcekim_hizala"></div></div>');
+		$('.indirimliler_gelsin').append('<div>Kredi kartï¿½ tek ï¿½ekim : <div class="tekcekim_hizala"></div></div>');
 	}
 	
 	if ($('.urun_detay_orta .urun_kdvdahil_fiyati').length > 0) {
@@ -481,7 +481,7 @@ PM.OnPage("urun_detay",function(){
 	});
 	
 	$("#PM_urun_detayi div.urun_detay_orta div.urun_fiyat table td.baslik").each(function(){
-		if ($(this).html().indexOf("Ýndirimli") > -1) $(this).html($(this).html().replace(/\(.*\)/gi,"")); 
+		if ($(this).html().indexOf("ï¿½ndirimli") > -1) $(this).html($(this).html().replace(/\(.*\)/gi,"")); 
 	})
 	
 	$(".banka_taksitleri").append('<div style="clear:both;"></div>');
@@ -520,7 +520,7 @@ PM.OnPage("urun_detay",function(){
 	
 	if($("ul.urun_detay_tablar_ul li a.link_6").length > 0){
 		$(".urun_fiyati_yok span").remove();
-		$(".urun_fiyati_yok").append('<a href="javascript:void(0);">Teklif Ýstemek Ýçin Týklayýnýz</a>');
+		$(".urun_fiyati_yok").append('<a href="javascript:void(0);">Teklif ï¿½stemek ï¿½ï¿½in Tï¿½klayï¿½nï¿½z</a>');
 	}
 	$(".urun_fiyati_yok a").on('click', function(){
 		$(".urun_detay_tablar_ul li").removeClass("active");
@@ -549,12 +549,12 @@ PM.OnPage("urun_detay",function(){
 });
 
 PM.OnPage("uye_giris",function(){
-	$(".bannerline").append('<h1 class="baslik">Üye Giriþi</h1>');
+	$(".bannerline").append('<h1 class="baslik">ï¿½ye Giriï¿½i</h1>');
 	$(".uye_giris table tr td").eq(1).remove();
 	$(".uye_giris table tr td").eq(3).remove();
 	$(".uye_giris table tr td").eq(1).css("clear","both");
 	$(".uye_giris table tr td").eq(3).css("clear","both");
-	$("<h3>Üye Kayýt</h3>").prependTo(".uye_kayit");
+	$("<h3>ï¿½ye Kayï¿½t</h3>").prependTo(".uye_kayit");
 	$(".uye_giris table tr td").eq(4).remove();
 	$(".uye_giris table tr td").eq(5).remove();
 	$(".sifremi_unuttum").appendTo("#uye_giris_frm");
@@ -584,8 +584,8 @@ PM.OnPage(["uye_kayit", "uye_bilgileri", "sifre_degistir"], function(){
 PM.OnPage("pc_topla",function(){
 	$(".toplam_fiyatlar").insertBefore(".butonlar");
 	$(".pc_topla_sepete_ekle").insertAfter(".toplam_fiyatlar");
-	$("#pc_topla_yazdir_btn").text("Yazdýr");
-	$("#pc_topla_excell_btn").text("Ýndir");
+	$("#pc_topla_yazdir_btn").text("Yazdï¿½r");
+	$("#pc_topla_excell_btn").text("ï¿½ndir");
 
 	if($(".pc_topla_sag").height() < $(".pc_topla_sol").height() && $(".pc_topla_sag").height() < $(window).height()){
 		var offset_bottom = ($("body").height() - ($(".pc_topla_orta").offset().top + $(".pc_topla_orta").height()));
@@ -618,11 +618,11 @@ PM.OnPage(["order_step_1" ,"order_step_2", "order_step_3"], function(){
 	
 	
 	PM.OnPage("order_step_1",function(){
-		$(".siparis_sayfasi_adimlar").append('<div class="list-group"><a href="/alisveris-sepetim" class="first list-group-item done"><h1 class="la la-shopping-cart"></h1><p>Alýþveris Sepetim</p></a><a href="javascript:void(0);" class="list-group-item active"><h1 class="la la-file-text"></h1><p>Üye, Teslimat ve Fatura</p></a><a href="javascript:void(0);" class="list-group-item"><h1 class="la la-truck"></h1><p>Kargo ve Ödeme Seçimi</p></a><a href="javascript:void(0);" class="last list-group-item"><h1 class="la la-check-circle"></h1><p>Sipariþ Onayý</p></a></div>');	
+		$(".siparis_sayfasi_adimlar").append('<div class="list-group"><a href="/alisveris-sepetim" class="first list-group-item done"><h1 class="la la-shopping-cart"></h1><p>Alï¿½ï¿½veris Sepetim</p></a><a href="javascript:void(0);" class="list-group-item active"><h1 class="la la-file-text"></h1><p>ï¿½ye, Teslimat ve Fatura</p></a><a href="javascript:void(0);" class="list-group-item"><h1 class="la la-truck"></h1><p>Kargo ve ï¿½deme Seï¿½imi</p></a><a href="javascript:void(0);" class="last list-group-item"><h1 class="la la-check-circle"></h1><p>Sipariï¿½ Onayï¿½</p></a></div>');	
 	});
 	
 	PM.OnPage("order_step_2",function(){
-		$(".siparis_sayfasi_adimlar").append('<div class="list-group"><a href="/alisveris-sepetim" class="first list-group-item done"><h1 class="la la-shopping-cart"></h1><p>Alýþveris Sepetim</p></a><a href="/uye-teslimat-ve-fatura-bilgileri?sid='+ PM_sid +'" class="list-group-item done"><h1 class="la la-file-text"></h1><p>Üye, Teslimat ve Fatura</p></a><a href="javascript:void(0);" class="list-group-item active"><h1 class="la la-truck"></h1><p>Kargo ve Ödeme Seçimi</p></a><a href="javascript:void(0);" class="last list-group-item"><h1 class="la la-check-circle"></h1><p>Sipariþ Onayý</p></a></div>');	
+		$(".siparis_sayfasi_adimlar").append('<div class="list-group"><a href="/alisveris-sepetim" class="first list-group-item done"><h1 class="la la-shopping-cart"></h1><p>Alï¿½ï¿½veris Sepetim</p></a><a href="/uye-teslimat-ve-fatura-bilgileri?sid='+ PM_sid +'" class="list-group-item done"><h1 class="la la-file-text"></h1><p>ï¿½ye, Teslimat ve Fatura</p></a><a href="javascript:void(0);" class="list-group-item active"><h1 class="la la-truck"></h1><p>Kargo ve ï¿½deme Seï¿½imi</p></a><a href="javascript:void(0);" class="last list-group-item"><h1 class="la la-check-circle"></h1><p>Sipariï¿½ Onayï¿½</p></a></div>');	
 		$(".son_tutar_div").prependTo(".sonraki_adim_div");
 		$(".sonraki_adim_div").append('<div style="clear:both;" />');
 		
@@ -662,7 +662,7 @@ PM.OnPage(["order_step_1" ,"order_step_2", "order_step_3"], function(){
 	
 	PM.OnPage("order_step_3",function(){
 		
-		$(".siparis_sayfasi_adimlar").append('<div class="list-group"><a href="/alisveris-sepetim" class="list-group-item done"><h1 class="la la-shopping-cart"></h1><p>Alýþveris Sepetim</p></a><a href="/uye-teslimat-ve-fatura-bilgileri?sid='+ PM_sid +'" class="list-group-item done"><h1 class="la la-file-text"></h1><p>Üye, Teslimat ve Fatura</p></a><a href="/kargo-ve-odeme-secenekleri?sid='+ PM_sid +'" class="list-group-item done"><h1 class="la la-truck"></h1><p>Kargo ve Ödeme Seçimi</p></a><a href="javascript:void(0);" class="list-group-item active last"><h1 class="la la-check-circle"></h1><p>Sipariþ Onayý</p></a></div>');	
+		$(".siparis_sayfasi_adimlar").append('<div class="list-group"><a href="/alisveris-sepetim" class="list-group-item done"><h1 class="la la-shopping-cart"></h1><p>Alï¿½ï¿½veris Sepetim</p></a><a href="/uye-teslimat-ve-fatura-bilgileri?sid='+ PM_sid +'" class="list-group-item done"><h1 class="la la-file-text"></h1><p>ï¿½ye, Teslimat ve Fatura</p></a><a href="/kargo-ve-odeme-secenekleri?sid='+ PM_sid +'" class="list-group-item done"><h1 class="la la-truck"></h1><p>Kargo ve ï¿½deme Seï¿½imi</p></a><a href="javascript:void(0);" class="list-group-item active last"><h1 class="la la-check-circle"></h1><p>Sipariï¿½ Onayï¿½</p></a></div>');	
 		$('.siparis_onayi_sepet_bilgilerim, .siparis_onayi_adres_bilgilerim').wrapAll('<div class="siparis_onayi_first_table"><div class="siparis_onayi_first_row" /></div>'); 
 		$(".siparis_onayi_odeme_bilgilerim_icerik_havale_banka_logo img").attr("align","right").css("margin-left","10px").height("20px").appendTo($("tr.odeme_tipi td.deger"));
 		$(".siparis_onayi_odeme_bilgilerim_icerik_kk_taksitli_banka_logo img").attr("align","right").css("margin-left","10px").height("20px").appendTo($("tr.odeme_tipi td.deger"));
@@ -682,20 +682,20 @@ PM.OnPage("siparis_sonu",function(){
 PM.on("before.init.platinmarket", function(){
 
 
-	$("#ust_arama_kismi").on("click",function(e){
+	$("#PopupMenu1").on("click",function(e){
 		e.stopPropagation();
 	}); 
 
 	$(document).on("click",function(e){
-		$("#ust_arama_kismi").hide();
+		$("#PopupMenu1").hide();
 	});
 
-	$(".aramahide").on('click', function(e){
-		$("#ust_arama_kismi").toggle();
+	$(".menum").on('click', function(e){
+		$("#PopupMenu1").toggle();
 		e.stopPropagation();
     });
 
-	$(".sepet_oneriler_bu_urunleri_gordunuzmu_baslik").text("ÖNERÝLEN ÜRÜNLER");
+	$(".sepet_oneriler_bu_urunleri_gordunuzmu_baslik").text("ï¿½NERï¿½LEN ï¿½Rï¿½NLER");
 	
 	$("#ust_ek_menu_2").prepend($(".tum_kategoriler"));
 
