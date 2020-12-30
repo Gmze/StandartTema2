@@ -708,12 +708,12 @@ div.banka_taksit_secenkeleri table tr.taksit_satir_2,
 .urunler_main div.urunler div.icerik div.urun_liste.row_2{
     background-color: #f9f9f9;
 }
-
+/*
 #ust_uyelik_alani:hover .uyelikisim1,
 #ust_uyelik_alani:hover .uyelikisim2{
 	color:#cf92e8;
 }
-
+*/
 #urun_arama_input,
 #urun_arama_select,
 .menum > ul > li > ul,
@@ -851,7 +851,7 @@ textarea:focus {
 
 #PM_alt {
     border-color: #cf92e8;
-    background-color: #f3f4f5;
+    background-color: #cf92e8;
 	
 }
 

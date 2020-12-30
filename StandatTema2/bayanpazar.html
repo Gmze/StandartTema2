@@ -25,6 +25,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <script type="text/javascript" src="js/jquery.min.js?_t=156011432020.10.08"></script>
 
+<link rel="stylesheet" href="css/owl.carousel.min.css" />
+<script src="js/owl.carousel.js"></script>
+
 </head>
 <body>
 	<div id="PM_main">
@@ -41,15 +44,43 @@
 						</ul>
 					</div>	
 					<div id="ust_uyelik_alani">
-						<div style="" class="uyelikisim1"><i class="fa fa-user"></i><span>Üyelik İşlemleri</span></div>
-						<div class="uyelik_butonlar">
-							<div class="uyelikarrow"></div>					
-							<ul id="ust_uye_giris_ul">
-								<li><a class="link_1" href="/uye-girisi"><i class="fa fa-user"></i><span>Üye Girişi</span></a></li>
-								<li><a class="link_2" href="/uye-ol"><i class="fa fa-user"></i><span>Üye Ol</span></a></li>
-								<li class="facebook_login_button"><a href="//social.platinmarket.com/facebook/login?params=islem%3Dsocial%5Flogin&token=ee75cda9f390adedaab4b6da05df3df58a9b901f3f65e1fff11208f0780799d2"><b>facebook</b> ile bağlan</a></li> 			
-							</ul>
+						<div class="uyelikisim1 popup-container">
+							<label class="button" for="login-popup"> <i class="fa fa-user"></i><span>Üyelik İşlemleri</span></label>
+							<input type="checkbox" class="check" id="login-popup">
+
+							<div class="popup"><!--Pop-up start-->
+								<label for="login-popup"></label>
+								<div class="inner">
+									<div class="inner-left">
+										<img src="img/uye-girisi.png">
+									</div>
+									<div class="inner-right">
+										<label class="kapat" for="login-popup"><i class="fa fa-times"></i></label>
+										<div class="title">
+											<h1>Üye Girişi</h1>
+											<p>Hoşgeldiniz, indirim ve kampanyalardan yararlanmak için lütfen üye girişi yapın veya üye olun.</p>
+										</div>
+										<div class="content">
+											<ul>
+												<li><input type="text" placeholder="E-Posta Adresiniz"></li>
+												<li><input type="password" placeholder="*******"> </li>
+												<li><button type="submit">Giriş Yap</button></li>
+											</ul>
+										</div>
+										<div class="content_sifrekayit">
+											<a href="#"><span>Şifrenizi mi unuttunuz?</span></a>
+											<a href="#" class="kayit"><span>Yeni Hesap Oluştur?</span> </a>
+										</div>
+									
+										<li class="facebook_login_button"><a href="//social.platinmarket.com/facebook/login?params=islem%3Dsocial%5Flogin&token=ee75cda9f390adedaab4b6da05df3df58a9b901f3f65e1fff11208f0780799d2"><b>facebook</b> ile bağlan</a></li> 			
+							
+										
+									</div>
+									
+								</div>
+							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -171,45 +202,408 @@
 					</ul>
 					</div>
 				</div>
-				<!--
-				<div id="anasayfa_yazisi">
-					<ul>
-						<li>
-							<a href="#">
-								<img src="https://s.eticaretbox.com/745/dosyalar/images/2019%20Anasayfa%20Web/Anasayfaa12_1.png">					
-								<div class="title">SOSLUK / ÇEREZLİK
-									<i class="fa fa-arrow-right"></i>
+				<div class="carousel">
+					<p class="carousel-baslik">Sizin İçin Seçtiklerimiz</p>
+					
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://s.eticaretbox.com/1960/pictures/FMSLFBCDXL11112020143441_We-Should-All-Be-Feminist.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+										
+										<div class="bottom_sec">
+	
+											<div class="urun_ismi">
+												<a class="urun_ismi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">Basic Bol Kesimli Beyaz T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+												<div class="indirimsiz_urun_kdvdahil_fiyati">
+													<span>100,00&nbsp;TL</span>
+												</div>
+												<div class="urun_kdvdahil_fiyati">
+													<span>90,00&nbsp;TL</span>
+												</div>
+											</div>
+	
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İncele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=5" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(5);" title="Satin Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satin Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İndirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+	
+										</div>
+									</div>
 								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://s.eticaretbox.com/745/dosyalar/images/2019%20Anasayfa%20Web/Anasayfaa12_1.png">					
-								<div class="title">SOSLUK / ÇEREZLİK
-									<i class="fa fa-arrow-right"></i>
+							</div>
+						</div>
+						<div class="item">
+							<div class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://s.eticaretbox.com/1960/pictures/FMSLFBCDXL11112020143441_We-Should-All-Be-Feminist.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+										
+										<div class="bottom_sec">
+	
+											<div class="urun_ismi">
+												<a class="urun_ismi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">Basic Bol Kesimli Beyaz T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+												<div class="indirimsiz_urun_kdvdahil_fiyati">
+													<span>100,00&nbsp;TL</span>
+												</div>
+												<div class="urun_kdvdahil_fiyati">
+													<span>90,00&nbsp;TL</span>
+												</div>
+											</div>
+	
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İncele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=5" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(5);" title="Satin Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satin Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İndirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+	
+										</div>
+									</div>
 								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://s.eticaretbox.com/745/dosyalar/images/2019%20Anasayfa%20Web/Anasayfaa12_1.png">					
-								<div class="title">SOSLUK / ÇEREZLİK
-									<i class="fa fa-arrow-right"></i>
+							</div>
+						</div>
+						<div class="item">
+							<div class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://s.eticaretbox.com/1960/pictures/FMSLFBCDXL11112020143441_We-Should-All-Be-Feminist.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+										
+										<div class="bottom_sec">
+	
+											<div class="urun_ismi">
+												<a class="urun_ismi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">Basic Bol Kesimli Beyaz T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+												<div class="indirimsiz_urun_kdvdahil_fiyati">
+													<span>100,00&nbsp;TL</span>
+												</div>
+												<div class="urun_kdvdahil_fiyati">
+													<span>90,00&nbsp;TL</span>
+												</div>
+											</div>
+	
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İncele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=5" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(5);" title="Satin Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satin Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İndirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+	
+										</div>
+									</div>
 								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://s.eticaretbox.com/745/dosyalar/images/2019%20Anasayfa%20Web/Anasayfaa12_1.png">					
-								<div class="title">SOSLUK / ÇEREZLİK
-									<i class="fa fa-arrow-right"></i>
+							</div>
+						</div>
+						<div class="item">
+							<div class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://s.eticaretbox.com/1960/pictures/FMSLFBCDXL11112020143441_We-Should-All-Be-Feminist.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+										
+										<div class="bottom_sec">
+	
+											<div class="urun_ismi">
+												<a class="urun_ismi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">Basic Bol Kesimli Beyaz T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+												<div class="indirimsiz_urun_kdvdahil_fiyati">
+													<span>100,00&nbsp;TL</span>
+												</div>
+												<div class="urun_kdvdahil_fiyati">
+													<span>90,00&nbsp;TL</span>
+												</div>
+											</div>
+	
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İncele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=5" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(5);" title="Satin Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satin Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İndirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+	
+										</div>
+									</div>
 								</div>
-							</a>
-						</li>
+							</div>
+						</div>
+						<div class="item">
+							<div class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://s.eticaretbox.com/1960/pictures/FMSLFBCDXL11112020143441_We-Should-All-Be-Feminist.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+										
+										<div class="bottom_sec">
+	
+											<div class="urun_ismi">
+												<a class="urun_ismi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">Basic Bol Kesimli Beyaz T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+												<div class="indirimsiz_urun_kdvdahil_fiyati">
+													<span>100,00&nbsp;TL</span>
+												</div>
+												<div class="urun_kdvdahil_fiyati">
+													<span>90,00&nbsp;TL</span>
+												</div>
+											</div>
+	
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İncele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=5" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(5);" title="Satin Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satin Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İndirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://s.eticaretbox.com/1960/pictures/FMSLFBCDXL11112020143441_We-Should-All-Be-Feminist.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+										
+										<div class="bottom_sec">
+	
+											<div class="urun_ismi">
+												<a class="urun_ismi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">Basic Bol Kesimli Beyaz T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+												<div class="indirimsiz_urun_kdvdahil_fiyati">
+													<span>100,00&nbsp;TL</span>
+												</div>
+												<div class="urun_kdvdahil_fiyati">
+													<span>90,00&nbsp;TL</span>
+												</div>
+											</div>
+	
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İncele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=5" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(5);" title="Satin Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satin Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="İndirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						
-					</ul>
+						
+					</div>
+					<script>
+						$('.owl-carousel').owlCarousel({
+						loop:true,
+						margin:10,
+						nav:true,
+						responsive:{
+							0:{
+								items:1
+							},
+							600:{
+								items:3
+							},
+							1000:{
+								items:5
+							}
+						}
+					});
+	
+					</script>
 				</div>
-				-->
+				
+				
+				
+
+				<div id="anasayfa_yazisi">
+					<div class="anasayfa_gorseller_tumu">
+						<div class="anasayfa_gorseller ">
+							<div class="anasayfa_zoom">
+								<a href="#"><img alt="" loading="lazy" src="img/anasayfaGorsel1.png"  /></a>
+							</div>
+							<div class="rect rect-1"></div>
+   							<div class="rect rect-2"></div>
+						</div>	
+						<div class="anasayfa_gorseller ">
+							<div class="anasayfa_zoom">
+								<a href="#"><img alt="" loading="lazy" src="img/tesettur.jpg" class="orta-gorsel" /></a>
+							</div>
+							<div class="rect rect-1"></div>
+   							<div class="rect rect-2"></div>
+						</div>	
+						<div class="anasayfa_gorseller ">
+							<div class="anasayfa_zoom">
+								<a href="#"><img alt="" loading="lazy" src="img/anasayfaGorsel2.png"  /></a>
+							</div>
+							<div class="rect rect-1"></div>
+   							<div class="rect rect-2"></div>
+						</div>	
+						<style>
+							.anasayfa_gorseller_tumu {
+								display: flex;
+								justify-content: space-between;
+							}
+							.anasayfa_gorseller img{
+								width: 390px;
+							}
+							.anasayfa_gorseller{
+								width: 390px;
+								position: relative;
+							
+							}
+							.rect{
+								width: 0;
+								height: 0;
+								position:absolute;
+								background-color: rgba(255, 255, 255, .2);
+  								transition: 500ms all ease-in-out;
+							}
+							.rect-1{
+								left:0;
+								top:0;
+							}
+							.rect-2{
+								right: 0;
+								bottom:0;
+							}
+							.anasayfa_gorseller:hover .rect{
+								width: 100%;
+								height: 100%;
+							}
+						</style>
+					</div>				
+				</div>
+				
 				<div id="PM_anasayfa_urunler" class="st_horizontal">
 
 					<div class="urunler siralama_abbr product_col_3" id="urunler_0" >
@@ -217,9 +611,12 @@
 							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
 								<div class="urun">
 									<div>
-										<div class="urun_resmi">
-											<a class="urun_resmi_5" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
-												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-QHSFTGJMNF11112020143416_She-s-Black.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_5 thumbnail-1" href="/basic-bol-kesimli-beyaz-t-shirt-pmu5" title="Basic Bol Kesimli Beyaz T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/mnresize/415/622/ty16/product/media/images/20201008/4/14060368/91426550/0/0_org_zoom.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Basic Bol Kesimli Beyaz T-shirt" width="400" height="600" />
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty15/product/media/images/20201008/4/14060368/91426550/2/2_org.jpg">
 											</a>
 										</div>
 										<div class="ikonlar">
@@ -264,9 +661,12 @@
 							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
 								<div class="urun">
 									<div>
-										<div class="urun_resmi">
-											<a class="urun_resmi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
-												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-LANYISVOKU1111202014352_We-Should-All-Be-Feminist-.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600"  onmouseenter="$(this).attr('src','https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-PYBVAQOOAE11112020143233_We-Should-All-Be-Feminist.jpg')" onmouseleave="$(this).attr('src','https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-LANYISVOKU1111202014352_We-Should-All-Be-Feminist-.jpg')" />
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/ty16/product/media/images/20201008/18/14225187/91629606/2/2_org.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty16/product/media/images/20201008/18/14225187/91629606/3/3_org.jpg">
 											</a>
 										</div>
 										<div class="ikonlar">
@@ -311,9 +711,117 @@
 							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
 								<div class="urun">
 									<div>
-										<div class="urun_resmi">
-											<a class="urun_resmi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
-												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-LANYISVOKU1111202014352_We-Should-All-Be-Feminist-.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600"  onmouseenter="$(this).attr('src','https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-PYBVAQOOAE11112020143233_We-Should-All-Be-Feminist.jpg')" onmouseleave="$(this).attr('src','https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-LANYISVOKU1111202014352_We-Should-All-Be-Feminist-.jpg')" />
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/ty13/product/media/images/20201001/16/12843730/89748106/0/0_org.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty14/product/media/images/20201001/16/12843730/89748106/1/1_org.jpg">
+											</a>
+										</div>
+										
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+								
+										<div class="bottom_sec">
+
+											<div class="urun_ismi">
+												<a class="urun_ismi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">Bir Seni Sevdim Tasarım T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+															<div class="indirimsiz_urun_kdvdahil_fiyati">
+																<span>100,00&nbsp;TL</span>
+															</div>
+													<div class="urun_kdvdahil_fiyati">
+														<span>90,00&nbsp;TL</span>
+													</div>
+
+											</div>
+
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="incele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=6" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(6);" title="Satın Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satın Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="indirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/ty13/product/media/images/20200927/21/12225755/89059520/0/0_org.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty14/product/media/images/20200927/21/12225755/89059520/1/1_org.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+								
+										<div class="bottom_sec">
+
+											<div class="urun_ismi">
+												<a class="urun_ismi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">Bir Seni Sevdim Tasarım T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+															<div class="indirimsiz_urun_kdvdahil_fiyati">
+																<span>100,00&nbsp;TL</span>
+															</div>
+													<div class="urun_kdvdahil_fiyati">
+														<span>90,00&nbsp;TL</span>
+													</div>
+
+											</div>
+
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="incele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=6" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(6);" title="Satın Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satın Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="indirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div></div>
+				
+						<div class="urunler siralama_abbr product_col_3" id="urunler_1" >
+							<div class="icerik"><p class="baslik">Haftanın Ürünleri</p>
+							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/mnresize/415/622/ty40/product/media/images/20201225/16/42067043/99059357/1/1_org_zoom.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty38/product/media/images/20201225/16/42067043/99059357/4/4_org.jpg">
 											</a>
 										</div>
 										<div class="ikonlar">
@@ -358,9 +866,112 @@
 							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
 								<div class="urun">
 									<div>
-										<div class="urun_resmi">
-											<a class="urun_resmi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
-												<img data-original="https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-LANYISVOKU1111202014352_We-Should-All-Be-Feminist-.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600"  onmouseenter="$(this).attr('src','https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-PYBVAQOOAE11112020143233_We-Should-All-Be-Feminist.jpg')" onmouseleave="$(this).attr('src','https://s.eticaretbox.com/1960/pictures/thumb/400X-600X-LANYISVOKU1111202014352_We-Should-All-Be-Feminist-.jpg')" />
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/ty39/product/media/images/20201225/20/42275047/99058720/3/3_org.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty40/product/media/images/20201225/20/42275047/99058720/1/1_org.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+								
+										<div class="bottom_sec">
+
+											<div class="urun_ismi">
+												<a class="urun_ismi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">Bir Seni Sevdim Tasarım T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+															<div class="indirimsiz_urun_kdvdahil_fiyati">
+																<span>100,00&nbsp;TL</span>
+															</div>
+													<div class="urun_kdvdahil_fiyati">
+														<span>90,00&nbsp;TL</span>
+													</div>
+
+											</div>
+
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="incele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=6" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(6);" title="Satın Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satın Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="indirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/ty39/product/media/images/20201225/14/41994001/99059169/1/1_org.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty38/product/media/images/20201225/14/41994001/99059169/2/2_org.jpg">
+											</a>
+										</div>
+										<div class="ikonlar">
+												<div class="indirimli_urun">%10</div>
+										</div>
+								
+										<div class="bottom_sec">
+
+											<div class="urun_ismi">
+												<a class="urun_ismi_6" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">Bir Seni Sevdim Tasarım T-shirt</a>
+											</div>
+											<div class="urun_fiyatlar">
+															<div class="indirimsiz_urun_kdvdahil_fiyati">
+																<span>100,00&nbsp;TL</span>
+															</div>
+													<div class="urun_kdvdahil_fiyati">
+														<span>90,00&nbsp;TL</span>
+													</div>
+
+											</div>
+
+											<div class="butonveikonlar">
+												<div class="urun_butonlar">
+													<a class="urun_incele" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="incele"></a>
+													<a class="urun_sepete_ekle" rel="nofollow" href="?islem=sepete_ekle2&sid=91145401&uid=6" title="Sepete Ekle">
+														<img src="/skin/1050-1/images/q_sepete_ekle.gif" alt="Sepete Ekle" />
+													</a>
+													<a class="urun_hemen_al" rel="nofollow" href="#" onclick="PM.HemenAl(6);" title="Satın Al">
+														<img src="/skin/1050-1/images/q_hemen_al.gif" alt="Satın Al" />
+													</a>
+												</div>
+												<div class="urun_ikonlar">
+													<a href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="indirimli Ürün">
+														<img class="indirimli_urun_ikon" src="/skin/1050-1/images/indirimli.gif" alt="İndirimli Ürün" title="İndirimli Ürün" />
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div style="float:left;display:block;width:33.32%;" class="urun_grup_1">
+								<div class="urun">
+									<div>
+										<div class="urun_resmi thumbnail">
+											<a class="urun_resmi_6 thumbnail-1" href="/bir-seni-sevdim-tasarim-t-shirt-pmu6" title="Bir Seni Sevdim Tasarım T-shirt">
+												<img data-original="https://cdn.dsmcdn.com/ty40/product/media/images/20201225/21/42297476/99058928/2/2_org.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Bir Seni Sevdim Tasarım T-shirt" width="400" height="600">
+											</a>
+											<a class="thumbnail-2">
+												<img src="https://cdn.dsmcdn.com/ty40/product/media/images/20201225/21/42297476/99058928/5/5_org.jpg">
 											</a>
 										</div>
 										<div class="ikonlar">
@@ -405,7 +1016,8 @@
 							
 							
 							
-						<div class="PM_clear"></div></div></div>	
+						<div class="PM_clear"></div></div>
+					</div>	
 				</div>
 
 			</div>
@@ -420,230 +1032,228 @@
 			
 			<div class="site_telif">
 				<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-<i aria-hidden="true" class="fa fa-facebook-square" style="font-size: 36px;"></i>
-<i aria-hidden="true" class="fa fa-twitter-square" style="font-size: 36px;"></i>
-<i aria-hidden="true" class="fa fa-youtube-square" style="font-size: 36px;"></i>
 
-
-<div class="telifmain">
-<div class="social"><strong style="text-align: center;"><span style="font-size:16px;"></span></strong><strong style="text-align: center;"><span style="font-size:16px;">&nbsp; &nbsp; &nbsp; &nbsp;</span></strong><img alt="" loading="lazy" src="/img/logo.png" style="width: 250px;" />
-<p>Bu alan siteniz hakkında kısa tanıtım yazısı ekleyebileceğiniz bir içerik yazısıdır. Yönetim Panelnizde Genel Ayarlar &gt; Genel Telif Satırı alanından düzenleyebilirsiniz.</p>
-</div>
-
-<div class="teliforta">
-<div class="d_sol">
-<h4 class="baslik"><span style="color:#444444;">KATEGORİLER</span></h4>
-
-<ul>
-	<li><a href="https://demo.platinmarket.com/bilgisayar-pmk269">Bilgisayar</a></li>
-	<li><a href="https://demo.platinmarket.com/mobilya-pmk429">Mobilya</a></li>
-	<li><a href="https://demo.platinmarket.com/cep-telefonu-pmk286">Cep Telefonu</a></li>
-	<li><a href="https://demo.platinmarket.com/anne-ve-bebek-pmk427">Anne &amp; Bebek Ürünleri</a></li>
-	<li><a href="https://demo.platinmarket.com/oyuncak-pmk433">Oyuncak</a></li>
-	<li><a href="https://demo.platinmarket.com/kitap-pmk431">Kitap</a></li>
-</ul>
-</div>
-
-<div class="d_sag">
-<h4 class="baslik"><span style="color:#444444;">YARDIM</span></h4>
-
-<ul>
-	<li><a href="/siparis-takibi"><span style="color:#444444;">Sipariş Takibi</span></a></li>
-	<li><a href="/ariza-iade-takibi"><span style="color:#444444;">Arıza Formu</span></a></li>
-	<li><a href="/ariza-iade-takibi"><span style="color:#444444;">İade Formu</span></a></li>
-	<li><a href="#"><span style="color:#444444;">Sıkça Sorulan Sorular</span></a></li>
-	<li><a href="/musteri-hizmetleri"><span style="color:#444444;">Müşteri Hizmetleri</span></a></li>
-	<li><a href="/iletisim"><span style="color:#444444;">İletişim</span></a></li>
-</ul>
-</div>
-
-<div class="d_son">
-<h4 class="baslik"><span style="color:#444444;">HESABIM</span></h4>
-
-<ul>
-	<li><a href="/uyelik-bilgilerim"><span style="color:#444444;">Üyelik Bilgilerim</span></a></li>
-	<li><a href="/adres-bilgilerim"><span style="color:#444444;">Adres Bilgilerim</span></a></li>
-	<li><a href="/siparislerim"><span style="color:#444444;">Siparişlerim</span></a></li>
-	<li><a href="/stok-alarm-listem">Stok Alarm Listem</a></li>
-	<li><a href="/alisveris-listem"><span style="color:#444444;">Alışveriş Listem</span></a></li>
-	<li><a href="/fiyat-alarm-listem">Fiyat Alarm Listem</a></li>
-</ul>
-</div>
-</div>
-</div>
-
-<div class="social-link">
-<div class="widget block block-static-block">
-<ul>
-	<li><a href="#" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square" style="font-size: 36px;"></i> Facebook</a></li>
-	<li><a href="#" target="_blank"><i aria-hidden="true" class="fa fa-twitter-square" style="font-size: 36px;"></i> Twitter</a></li>
-	<li><a href="#" target="_blank"><i aria-hidden="true" class="fa fa-youtube-square" style="font-size: 36px;"></i> Youtube</a></li>
-	<li><a href="#" target="_blank"><i aria-hidden="true" class="fa fa-instagram" style="font-size: 36px;"></i> Instagram</a></li>
-</ul>
-</div>
-</div>
-
-<div class="iletisim">
-<ul>
-	<li><i aria-hidden="true" class="fa fa-phone-square" style="font-size: 24px;"></i> <a tel="02165400495">&nbsp;0(555)555-55-55</a></li>
-	<li><i aria-hidden="true" class="fa fa-envelope" style="font-size: 24px;"></i> <a>&nbsp;info@siteismi.com</a></li>
-	<li class="visa-master"><i aria-hidden="true" class="fa fa-cc-visa" style="font-size: 32px; padding:4px;"></i> <i aria-hidden="true" class="fa fa-cc-mastercard" style="font-size: 32px; padding:4px;"></i> <i aria-hidden="true" class="fa fa-lock" style="font-size: 32px; padding:4px;"></i></li>
-</ul>
-</div>
-<style type="text/css">.social-link {
-    position: relative;
-    text-align: center;
-}
-.banka-logo li{
-    display:inline-block;
-   position:relative;
-   margin-top:15px;
-}
-.social-link:before {
-    content: "";
-    height: 1px;
-    width: 100%;
-    background: #34495E;
-    left: 0;
-    top: 49%;
-    position: absolute;
-}
-.widget.block {
-    margin: 20px 0;
-}
-.widget {
-    clear: both;
-}
-.social-link ul {
-    text-align: center;
-    margin: 0;
-    display: inline-block;
-    z-index: 1;
-    background: #f7f7f7;
-    position: relative;
-    padding: 0 35px;
-   
-}
-.iletisim{ text-align:center;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-.iletisim ul{
-display: flex;
-   margin: 0 auto;
-}
-.iletisim ul li{
-   display: flex;
-   position: relative;
-   padding-left: 15px;
-   align-items: center;
-}
-.iletisim ul li img{
-   margin-right:10px;
-}
-.iletisim ul li:before {
-    font-family: 'Linearicons-Free';
-    font-size: 24px;
-    position: absolute;
-    top: -3px;
-    left: 0;
-    width: 20px;
-    height: 20px;
-}
-li#iletisim-li {
-    bottom: 10px;
-}
-.visa-master {
-    margin-inline-start: auto;
-}
-.social-link ul li {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    margin-right: 20px;
-}
-.telifmain{
-	color:#444;
-	font-weight:200;
-}
-.telifmain h4{
-	margin-bottom:20px;
-	font-size:16px;
-}
-.telifmain .social{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 150px;
-	font-weight:400;
-}
-.telifmain .social li{
-	margin-bottom:12px;
-}
-.telifmain .social > img{
-    display: block;
-    vertical-align: middle;
-    margin-bottom: 20px;
-}
-.telifmain .social p{
-	width:300px;
-	font-size:13px;
-}
-
-.telifmain .social ul li img{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right:10px;
-}
-.telifmain .social a{
-    display: inline-block;
-    vertical-align: middle;
-}
-.teliforta{
-    display: inline-block;
-    vertical-align: top;
-}
-.telifmain .teliforta .d_sol{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 110px;
-}
-.telifmain .teliforta .d_sag{
-    display: inline-block;
-    vertical-align: top;
-	margin-right:110px;
-}
-.telifmain .teliforta .d_son{
-    display: inline-block;
-    vertical-align: top;
-	margin-right:50px;
-}
-.telifmain .teliforta .d_son2{
-    display: inline-block;
-    vertical-align: top;
-}
-
-.telifmain .teliforta li{
-    margin-bottom:20px;
-}
-.telifmain .teliforta img{
-    display: inline-block;
-    vertical-align: middle;
-	margin-right:8px;
-}
-.telifmain .teliforta a{
-    display: inline-block;
-    vertical-align: middle;
-	font-size:13px;
-	font-weight:400;
-}
-</style>
+				<div class="telifmain">
+					<div class="social">
+						<!--<img alt="" loading="lazy" src="img/platinmarket.png" style="width: 250px;" />-->
+						<h1 style="font-size: 38px; color:#f3f4f5;">platinmarket</h1><br>
+						<p>Bu alan siteniz hakkında kısa tanıtım yazısı ekleyebileceğiniz bir içerik yazısıdır. Yönetim Panelnizde Genel Ayarlar &gt; Genel Telif Satırı alanından düzenleyebilirsiniz.</p>
+					</div>
+				
+					<div class="teliforta">
+						<div class="d_sol">
+							<h4 class="baslik">KATEGORİLER</h4>
+							<ul>
+								<li><a href="https://demo.platinmarket.com/bilgisayar-pmk269">Bilgisayar</a></li>
+								<li><a href="https://demo.platinmarket.com/mobilya-pmk429">Mobilya</a></li>
+								<li><a href="https://demo.platinmarket.com/cep-telefonu-pmk286">Cep Telefonu</a></li>
+								<li><a href="https://demo.platinmarket.com/anne-ve-bebek-pmk427">Anne &amp; Bebek Ürünleri</a></li>
+								<li><a href="https://demo.platinmarket.com/oyuncak-pmk433">Oyuncak</a></li>
+								<li><a href="https://demo.platinmarket.com/kitap-pmk431">Kitap</a></li>
+							</ul>
+						</div>
+				
+						<div class="d_sag">
+							<h4 class="baslik">YARDIM</span></h4>
+							<ul>
+								<li><a href="/siparis-takibi">Sipariş Takibi</a></li>
+								<li><a href="/ariza-iade-takibi">Arıza Formu</a></li>
+								<li><a href="/ariza-iade-takibi">İade Formu</a></li>
+								<li><a href="#">Sıkça Sorulan Sorular</a></li>
+								<li><a href="/musteri-hizmetleri">Müşteri Hizmetleri</a></li>
+								<li><a href="/iletisim">İletişim</a></li>
+							</ul>
+						</div>
+				
+						<div class="d_son">
+							<h4 class="baslik">HESABIM</h4>
+							<ul>
+								<li><a href="/uyelik-bilgilerim">Üyelik Bilgilerim</a></li>
+								<li><a href="/adres-bilgilerim">Adres Bilgilerim</a></li>
+								<li><a href="/siparislerim">Siparişlerim</a></li>
+								<li><a href="/stok-alarm-listem">Stok Alarm Listem</a></li>
+								<li><a href="/alisveris-listem">Alışveriş Listem</a></li>
+								<li><a href="/fiyat-alarm-listem">Fiyat Alarm Listem</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="social-link"></div>
+				
+				<div class="iletisim">
+				<ul>
+					<li style="flex:5">
+						<i aria-hidden="true" class="fa fa-phone-square" style="font-size:25px"></i> <a tel="02165400495">&nbsp;0(555)555-55-55</a>
+						<i aria-hidden="true" class="fa fa-envelope" style="font-size:25px" ></i> <a>&nbsp;info@siteismi.com</a></li>
+					<li class="visa-master" style="flex:5">
+						<i aria-hidden="true" class="fab fa-cc-visa"></i> 
+						<i aria-hidden="true" class="fab fa-cc-mastercard"></i> 
+						<i aria-hidden="true" class="fa fa-lock" style="font-size: 28px;"></i></li>
+					<li style="flex:1">
+						<i aria-hidden="true" class="fab fa-facebook-f" style="font-size: 21px; padding-right: 18px;"></i>
+						<i aria-hidden="true" class="fab fa-twitter" style="font-size: 25px; padding-right: 18px;"></i>
+						<i aria-hidden="true" class="fab fa-instagram" style="font-size: 25px; padding-right: 18px;"></i>
+						<i aria-hidden="true" class="fab fa-google" style="font-size: 21px;"></i>
+					</li>
+				</ul>
+				</div>
+				<style type="text/css">.social-link {
+					position: relative;
+					text-align: center;
+				}
+				
+				.site_telif i, .site_telif a, .site_telif h4, .site_telif p {
+					color: #ffffff;
+				}
+				.iletisim i {
+					font-size: 30px;
+					color: #ffffff;
+					padding: 4px;
+				}
+				.banka-logo li{
+					display:inline-block;
+				   position:relative;
+				   margin-top:15px;
+				}
+				.social-link:before {
+					content: "";
+					height: 1px;
+					width: 100%;
+					background: #f3f4f5;
+					left: 0;
+					top: 49%;
+					position: absolute;
+				}
+				.social-link ul {
+					text-align: center;
+					margin: 0;
+					display: inline-block;
+					z-index: 1;
+					background: #f7f7f7;
+					position: relative;
+					padding: 0 35px;
+				   
+				}
+				.iletisim{ text-align:center;
+					padding-bottom: 15px;
+					padding-top: 10px;
+				}
+				.iletisim ul{
+					display: flex;
+					justify-content: space-between;
+					margin: 0 auto;
+				}
+				.iletisim ul li{
+				   display: flex;
+				   position: relative;
+				   align-items: center;
+				}
+				.iletisim ul li img{
+				   margin-right:10px;
+				}
+				.iletisim ul li:before {
+					font-family: 'Linearicons-Free';
+					font-size: 24px;
+					position: absolute;
+					top: -3px;
+					left: 0;
+					width: 20px;
+					height: 20px;
+				}
+				li#iletisim-li {
+					bottom: 10px;
+				}
+				
+				.social-link ul li {
+					list-style: none;
+					display: inline-block;
+					position: relative;
+					margin-right: 20px;
+				}
+				.telifmain{
+					color:#444;
+					font-weight:200;
+					padding-bottom: 20px;
+				}
+				.telifmain h4{
+					margin-bottom:20px;
+					font-size:16px;
+				}
+				.telifmain .social{
+					display: inline-block;
+					vertical-align: top;
+					margin: 20px 190px 0px 35px;
+					font-weight:400;
+				}
+				.telifmain .social li{
+					margin-bottom:8px;
+				}
+				.telifmain .social > img{
+					display: block;
+					vertical-align: middle;
+					margin-bottom: 20px;
+				}
+				.telifmain .social p{
+					width:300px;
+					font-size:13px;
+				}
+				
+				.telifmain .social ul li img{
+					display: inline-block;
+					vertical-align: middle;
+					margin-right:10px;
+				}
+				.telifmain .social a{
+					display: inline-block;
+					vertical-align: middle;
+				}
+				.teliforta{
+					display: inline-block;
+					vertical-align: top;
+				}
+				.telifmain .teliforta .d_sol{
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 60px;
+				}
+				.telifmain .teliforta .d_sag{
+					display: inline-block;
+					vertical-align: top;
+					margin-right:60px;
+				}
+				.telifmain .teliforta .d_son{
+					display: inline-block;
+					vertical-align: top;
+				
+				}
+				.telifmain .teliforta .d_son2{
+					display: inline-block;
+					vertical-align: top;
+				}
+				
+				.telifmain .teliforta li{
+					margin-bottom:15px;
+				}
+				.telifmain .teliforta img{
+					display: inline-block;
+					vertical-align: middle;
+					margin-right:8px;
+				}
+				.telifmain .teliforta a{
+					display: inline-block;
+					vertical-align: middle;
+					font-size:13px;
+					font-weight:400;
+				}
+				</style>
 
 
 			</div>
 
 			<div class="pm_telif">
 				<a class="mobilPlatinMarketLogo" href="https://www.platinmarket.com" title="PlatinMarket E-Ticaret Sistemleri" target="_blank"><img src="/skin/_shared/images/platinmarket.svg" style="width:85px; margin-bottom:-3px; display:none;" alt="PlatinMarket E-Ticaret Sistemleri" title="e-ticaret"></a>
-				<p>PlatinMarket<sup>�</sup> <a href="http://www.platinmarket.com" target="_blank" rel="noopener" title="e-ticaret eticaret">E-Ticaret</a> Sistemi �le Haz�rlanm��t�r.</p>
+				<p>PlatinMarket<sup></sup> <a href="http://www.platinmarket.com" target="_blank" rel="noopener" title="e-ticaret eticaret">E-Ticaret</a> Sistemi ile Hazirlanmıştır.</p>
 			</div>
 
 		</div>

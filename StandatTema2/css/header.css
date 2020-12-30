@@ -55,12 +55,26 @@
       z-index: 9998;
   }
   
-  .infoarea{
-      width:1200px;
-      height:110px;
-      margin: 0px 0px 6px 55px;
-      
-      
+  @media screen and (max-width: 1440px){
+    .infoarea{
+        width:1440px;
+        height:110px;  
+        margin-left: -30px;     
+    }
+  }
+  /*
+  @media screen and (max-width: 1920px){
+    .infoarea{
+        width:1920px;
+        height:110px;       
+    }
+  }*/
+  @media screen and (max-width: 1366px){
+    .infoarea{
+        width:1366px;
+        height:110px;
+        margin-left: -30px;       
+    }
   }
   
   .bannerline {
@@ -90,12 +104,12 @@
   }
   
   .main_row .ic_tutucu{
-      width:1490px;
+    
       margin:0 auto;
       display:flex;
       flex-direction:column;
       padding: 0px 0px;
-      background-color: rgba(207, 146, 232, 0.72);
+      background-color: rgba(207, 146, 232);
   }
   
   #PM_ust {
@@ -227,7 +241,7 @@
       font-weight: 400;
   }
   .uyelikisim1 i {
-      font-size: 19px;
+      font-size: 15px;
   }
   .uyelikisim1 .la-user{
       font-size:27px;
@@ -384,8 +398,6 @@
       padding: 0;
       position: absolute;
       background: #fff!important;
-  
-      z-index: 999;
       /*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.12);*/
       display: block;
       
@@ -413,7 +425,7 @@
       background:#cf92e8 ;
       cursor: pointer;
       font-size: 22px;
-      padding: 6px 8px;
+      padding: 8px 8px 4px 8px;
       color: #ffffff;
       background-repeat: no-repeat;
       background-position: center;
@@ -466,8 +478,8 @@
       color: #fff;
       border-radius: 4px;
       box-shadow: 0px 8px 20px rgba(43, 49, 183, 0.3);
-      font-size: 26px;
-      padding: 6px;
+      font-size: 20px;
+      padding: 8px 8px 8px 7px;
   }
   
   .sepet_link span {
@@ -810,6 +822,7 @@
       border-radius: 4px 4px 0px 0px;
       margin-top: 2px;
       cursor: pointer;
+      text-align: center;
   }
   #PopupMenu1{
       display: none;
@@ -826,7 +839,7 @@
       line-height: 1;
       content: "\f0c9";
       font-size: 14px;
-      margin-right: 10px;
+      margin-right: 8px;
   }
   
   .menum > ul {
@@ -835,7 +848,7 @@
       border-top: none;
   }
   .menum ul li {
-      padding: 2px 0px;
+      /*padding: 2px 0px;*/
   }
   .menum > ul > li > a,
   .menum > ul > li > ul > li > ul > li > a {
@@ -920,6 +933,7 @@
   }
   
   
+  
   .arrow_right {	
       font-size: 16px;
       position: absolute;
@@ -954,6 +968,163 @@
       justify-content: space-between;
       
   }
+  
+  .popup-container {
+    display: inline-flex;
+  }
+  .popup-container .check{
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+  }
+  .popup-container .check:checked + .popup{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .popup-container .button {
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .popup-container .popup {
+    position: fixed;
+    /*top: 0;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000,.5);
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms all;
+  }
+  .popup-container label {
+    cursor: pointer;
+  }
+  .popup-container .inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    min-width: 800px;
+    min-height: 600px;
+    box-sizing: border-box;
+    transition: 400ms all;
+    z-index: 10;
+    max-height: 100%;
+    overflow: auto;
+    border-radius: 5px;
+  }
+  .inner-left {
+    width: 47%;
+    float: left;
+    padding-top: 120px;
+    box-shadow: 3px 3px 15px 7px #eee;
+   }
+   .inner-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        
+   }
+   
+   .inner-right .kapat{
+       margin-bottom:30px;
+       cursor:pointer;
+       text-align: right;
+   }
+   .inner-right .content_sifrekayit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 50px 0;
+    }
+  .popup-container .inner .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+  }
+  .popup-container .inner .title h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .popup-container .inner .title label {
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+  }
+  .popup-container .inner .title label:hover {
+    color: #222;
+  }
+  .popup-container .inner .content ul {
+    margin-bottom: 15px;
+    
+    }
+  .popup-container .inner .content ul li {
+    margin-bottom: 15px;
+    height: 40px;
+  }
+  .popup-container .inner .content ul li input {
+    width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	font-size: 12px;
+  }
+  .popup-container .inner .content ul li input:focus {
+    outline: 0;
+	border-color: blue;
+  }
+  .popup-container .inner .content ul li button {
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 3px;
+    border: none;
+    background: #cf92e8;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content_sifrekayit .kayit{
+    color:#0573F3;
+    cursor: pointer;
+}
+.facebook_login_button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding: 30px 0;
+}
+.facebook_login_button a{
+    background: #fff;
+    color: #0573F3;
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+    padding: 15px 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+
+}
   
   #ust_uye_giris_ul > li a.link_1,
   #ust_uye_giris_ul > li a.link_2 {
@@ -1018,17 +1189,27 @@
   }
   
   #ust_ek_menuler_yerlesimi .Popup{
-      width:220px!important;
+      width:236px!important;
       border-radius: 0px;
-      padding:8px!important;
+      /*padding:8px!important;*/
   }
   
   #ust_ek_menuler_yerlesimi .Popup li a{
       font-family: 'Montserrat', sans-serif!important;
       font-size:14px!important;
       border-radius:0px!important;
-      padding:4px 6px!important;
+      padding:8px 0px!important;
   }
+  .Popup li a{
+    color:#434950;
+}
+.Popup li a span {
+    padding: 0 8px;
+}
+  .Popup li a:hover {
+    background: linear-gradient(45deg, rgb(207 146 232), transparent);
+    color:#434950!important;
+}
   
   #ust_ek_menuler_yerlesimi .Popup li a.PopupO .PopupS{
       right:6px!important;	

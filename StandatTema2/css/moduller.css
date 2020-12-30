@@ -304,12 +304,15 @@
 	width:100%;
 }
 
+
+
 #anasayfa_yazisi {
     clear: both;
     display: block;
 	width:1200px;
 	margin: 0 auto;
-	margin-bottom:30px;
+    margin-bottom:30px;
+   
 }
 
 
@@ -317,11 +320,31 @@
 
 }
 
-#slider,
-#slider li {
-    width: 1490px!important;
-    height: 500px!important;
+@media screen and (max-width: 1440px){
+    #slider,
+    #slider li {
+        width: 1440px!important;
+        height: 500px!important;
+    }
 }
+
+@media screen and (max-width: 1366px){
+    #slider,
+    #slider li {
+        width: 1366px!important;
+        height: 500px!important;
+    }
+}
+/*
+@media screen and (max-width: 1920px){
+    #slider,
+    #slider li {
+        width: 1920px!important;
+        height: 500px!important;
+    }
+}
+*/
+
 
 #cu3er-container {
     width: 100%!important;
@@ -332,10 +355,91 @@
     margin-top: -40px;
     margin-left: 0;
     padding: 0;
-    width: 1180px;
-    padding: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 1920px){
+    #PM_xml_banner #controls{
+        width:1920px;
+    }
+}
+@media screen and (max-width: 1490px){
+    #PM_xml_banner #controls{
+        width:1490px;
+    }
+}
+@media screen and (max-width: 1366px){
+    #PM_xml_banner #controls{
+        width:1366px;
+    }
+}
+.carousel {
+    border: 1px solid #eee;
+    margin-bottom: 40px;
+}
+.carousel-baslik{
+    padding: 10px 0px 10px 15px;
+    font-size: 18px;
+    width: 1183px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.owl-carousel.owl-theme {
+    position: relative;
+    height: 575px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.owl-carousel .owl-stage-outer {
+    height: 570px;
+}
+
+.owl-item.active{
+    width: 279px!important;
+    margin-right: 20px!important;
+}
+.owl-nav{
+    position: absolute;
+    top: -62px;
+    right: 0;
+}
+.owl-nav button{
+    width: 50px;
+    height: 46px;
+}
+.owl-nav button:hover {
+    background: #cf92e8bf!important;
+}
+.owl-next span,.owl-prev span {
+    font-size: 30px;
+}
+
+.thumbnail {
+
+    position: relative;
+  }
+  
+  .thumbnail-2 {
+    transform: rotateY(90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 500ms all ease-in-out;
+    opacity: 0;
+  }
+  
+  .thumbnail:hover .thumbnail-2 {
+      display: block;
+      transform: none;
+      opacity: 1;
+  }
 
 #PM_xml_banner #controls li {
     margin: -3px 5px 0 0;

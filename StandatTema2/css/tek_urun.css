@@ -3,11 +3,11 @@
 #PM_orta div.urun {
     text-align: center;
     position: relative;
-    border: 1px solid #ebeef0;
+   /* border: 1px solid #ebeef0;*/
     box-sizing: border-box;
     height: 100%;
-    margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 #PM_orta div.urun > div{
     display: flex;
@@ -16,7 +16,7 @@
 }
 
 #PM_orta div.urun div.urun_ismi {
-    padding: 10px 0px;
+    padding: 0px 0px 10px 0px;
     overflow: hidden;
 }
 
@@ -26,7 +26,8 @@
 }
 
 #PM_orta div.urun div.urun_resmi{
-	transition: all 0.20s ease-in-out;
+    transition: all 0.20s ease-in-out;
+    height: 450px;
 }
 
 #PM_orta div.urun div.urun_resmi a {
@@ -37,6 +38,7 @@
 #PM_orta div.urun div.urun_resmi a img{
     width: 100%;
     height: auto;
+    border-radius: 4px;
 }
 #PM_orta div.urun.urunfixed div.urun_resmi a img{
 
@@ -114,7 +116,7 @@
 
 
 #PM_orta div.urun div.urun_butonlar a.urun_hemen_al:before {
-    content: "Satýn Al";
+    content: "SatÄ±n Al";
 	transition: all 0.20s ease-in-out;	
 }
 
@@ -131,7 +133,7 @@
     min-height: 0;
     white-space: nowrap;
     z-index: 999;
-    position: absolute;
+    position: relative;
     left: 0;
     visibility: hidden;
     display: block;
@@ -144,7 +146,7 @@
 #PM_orta div.urun:hover div.butonveikonlar {
     visibility: visible;
 	opacity:1;
-	bottom:0;
+    bottom:0;
 }
 #PM_orta div.urun:hover div.urun_resmi {
 	
@@ -209,13 +211,13 @@
 
 
 #PM_orta div.urun div.urun_ikonlar .ayni_gun_kargo_urun_ikon_a i:after {
-    content: 'Ayný gün kargo';
+    content: 'Aynï¿½ gï¿½n kargo';
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
 }
 
 #PM_orta div.urun div.urun_ikonlar .kampanyali_urun_ikon_a i:after {
-    content: 'Kampanyalý Ürün';
+    content: 'Kampanyalï¿½ ï¿½rï¿½n';
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -228,7 +230,7 @@
 }
 
 #PM_orta div.urun div.urun_ikonlar .kargo_bedavali_urun_ikon_a i:after {
-    content: 'Ücretsiz Kargo';
+    content: 'ï¿½cretsiz Kargo';
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
 }
