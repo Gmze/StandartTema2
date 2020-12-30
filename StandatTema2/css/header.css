@@ -1205,6 +1205,7 @@
 }
 .Popup li a span {
     padding: 0 8px;
+    font-weight: 500;
 }
   .Popup li a:hover {
     background: linear-gradient(45deg, rgb(207 146 232), transparent);

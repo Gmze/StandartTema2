@@ -286,11 +286,61 @@
 
 #PM_anasayfa_urunler div.urunler p.baslik {
     padding: 10px 0px 10px 15px;
-    font-size: 18px;
+    font-size: 24px;
     width: 683px;
     font-weight:600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align:center;
+}
+#PM_anasayfa_urunler div.urunler .vitrin_baslik:before {
+    content: '';
+    height: 2px;
+    width: 220px;
+    background: #c5c4c4;
+    position: absolute;
+    left: 180px;
+    top: 25px;
+    z-index: 1;
+}
+#PM_anasayfa_urunler div.urunler .vitrin_baslik:after {
+    content: '';
+    height: 2px;
+    width: 220px;
+    background: #c5c4c4;
+    position: absolute;
+    right: 165px;
+    top: 25px;
+    z-index: 1;
+}
+#PM_anasayfa_urunler div.urunler .vitrin_baslik p.baslik:before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #c5c4c4;
+    position: absolute;
+    left: 400px;
+    top: 21px;
+    transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -web-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 2;
+}
+#PM_anasayfa_urunler div.urunler .vitrin_baslik p.baslik:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #c5c4c4;
+    position: absolute;
+    right: 385px;
+    top: 21px;
+    transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -web-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 2;
 }
 
 #PM_anasayfa_urunler div.urunler div.icerik {
@@ -579,6 +629,7 @@
     flex: 0 0 calc(100% / 4);
     padding: 0;
     margin-bottom: 20px;
+    position: relative;
 }
 #PM_anasayfa_urunler .product_col_4 .product_group > div{
     flex: 0 0 calc(100% / 4)!important;
